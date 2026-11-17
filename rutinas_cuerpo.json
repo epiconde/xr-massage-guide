@@ -1045,6 +1045,180 @@
       "presion": "suave"
      }
     ]
+   },
+   {
+    "id": "movilidad",
+    "nombre": "Soltar la pierna",
+    "descripcion": "Movimientos suaves de rodilla y tobillo, con la persona boca abajo. La pantalla de arriba muestra cómo se mueve la pierna.",
+    "pasos": [
+     {
+      "nombre": "Calentar la pierna",
+      "tecnica": "Deslizamiento",
+      "duracion": 45,
+      "instruccion": "Unas pasadas largas del tobillo al glúteo, para avisar que vas a mover la pierna.",
+      "zonas": [
+       "p_pantorrilla",
+       "p_muslo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 6,
+       "trayectos": [
+        [
+         [
+          0,
+          0.12
+         ],
+         [
+          0,
+          0.42
+         ],
+         [
+          0,
+          0.6
+         ],
+         [
+          0,
+          0.95
+         ],
+         [
+          0.7,
+          0.75
+         ],
+         [
+          0.7,
+          0.16
+         ]
+        ]
+       ]
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Doblar la rodilla",
+      "tecnica": "Movilización",
+      "duracion": 60,
+      "instruccion": "Toma el tobillo con una mano y apoya la otra arriba del muslo. Lleva el talón hacia el glúteo, despacio, hasta donde llegue sin dolor, y regresa. Mira la pantalla.",
+      "zonas": [
+       "p_pantorrilla"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 6,
+       "centros": [
+        [
+         0,
+         0.06
+        ]
+       ],
+       "mano": "palma",
+       "apoyo": [
+        0,
+        0.85
+       ],
+       "maniqui": "rodilla",
+       "periodoManiqui": 5
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Mecer la pierna",
+      "tecnica": "Balanceo",
+      "duracion": 45,
+      "instruccion": "Con la rodilla doblada, sostén el tobillo y mece la pierna de un lado a otro, suelta, como un péndulo.",
+      "zonas": [
+       "p_pantorrilla"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 6,
+       "centros": [
+        [
+         0,
+         0.06
+        ]
+       ],
+       "mano": "palma",
+       "apoyo": [
+        0,
+        0.6
+       ],
+       "maniqui": "mecer",
+       "periodoManiqui": 2.2
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Círculos de tobillo",
+      "tecnica": "Movilización",
+      "duracion": 45,
+      "instruccion": "Con la rodilla doblada, sostén la pierna arriba del tobillo y con la otra mano gira el pie en círculos lentos, hacia un lado y luego hacia el otro.",
+      "zonas": [
+       "p_aquiles"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 6,
+       "centros": [
+        [
+         0,
+         0.03
+        ]
+       ],
+       "mano": "palma",
+       "apoyo": [
+        0,
+        0.3
+       ],
+       "maniqui": "tobillo",
+       "periodoManiqui": 3
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Bajar y soltar",
+      "tecnica": "Deslizamiento suave",
+      "duracion": 45,
+      "instruccion": "Baja la pierna con cuidado y termina con pasadas largas y lentas.",
+      "zonas": [
+       "p_pantorrilla",
+       "p_muslo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 7,
+       "trayectos": [
+        [
+         [
+          0,
+          0.12
+         ],
+         [
+          0,
+          0.42
+         ],
+         [
+          0,
+          0.6
+         ],
+         [
+          0,
+          0.95
+         ],
+         [
+          0.7,
+          0.75
+         ],
+         [
+          0.7,
+          0.16
+         ]
+        ]
+       ]
+      },
+      "presion": "suave"
+     }
+    ]
    }
   ],
   "mano": [
@@ -2244,6 +2418,580 @@
        ]
       },
       "presion": "media"
+     }
+    ]
+   }
+  ],
+  "sentado": [
+   {
+    "id": "cuello_hombros",
+    "nombre": "Cuello y hombros",
+    "descripcion": "La persona sentada, con la espalda derecha. Afloja hombros, cuello y la parte alta de la espalda. Sin aceite, sobre la ropa.",
+    "pasos": [
+     {
+      "nombre": "Manos sobre los hombros",
+      "tecnica": "Contacto",
+      "duracion": 30,
+      "instruccion": "Párate detrás. Apoya las palmas sobre los hombros y pide que respire hondo tres veces. Todavía no aprietes.",
+      "zonas": [
+       "st_hombros"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 6,
+       "centros": [
+        [
+         0.7,
+         0.72
+        ]
+       ],
+       "espejo": true,
+       "mano": "palma"
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Calentar la espalda alta",
+      "tecnica": "Deslizamiento",
+      "duracion": 60,
+      "instruccion": "Con las palmas, sube por los lados de la columna, abre hacia los hombros y baja por fuera. Sin prisa.",
+      "zonas": [
+       "st_junto",
+       "st_omoplatos"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 5,
+       "trayectos": [
+        [
+         [
+          0.2,
+          0.05
+         ],
+         [
+          0.2,
+          0.55
+         ],
+         [
+          0.75,
+          0.66
+         ],
+         [
+          0.8,
+          0.4
+         ],
+         [
+          0.45,
+          0.05
+         ]
+        ]
+       ],
+       "espejo": true
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Amasar los hombros",
+      "tecnica": "Amasado",
+      "duracion": 90,
+      "instruccion": "Toma el músculo de encima del hombro entre el pulgar y los dedos, aprieta y suelta, del cuello hacia afuera. Pregunta si la presión está bien.",
+      "zonas": [
+       "st_hombros"
+      ],
+      "movimiento": {
+       "tipo": "amasar",
+       "periodo": 1.6,
+       "centros": [
+        [
+         0.45,
+         0.8
+        ],
+        [
+         0.62,
+         0.74
+        ],
+        [
+         0.8,
+         0.68
+        ]
+       ],
+       "espejo": true
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Pulgares junto a la columna",
+      "tecnica": "Presión circular",
+      "duracion": 90,
+      "instruccion": "Pulgares a dos dedos de la columna. Círculos pequeños, subiendo poco a poco hasta la altura de los hombros. Nunca sobre el hueso.",
+      "zonas": [
+       "st_junto"
+      ],
+      "movimiento": {
+       "tipo": "circulos",
+       "periodo": 1.4,
+       "radio": 0.02,
+       "centros": [
+        [
+         0.17,
+         0.1
+        ],
+        [
+         0.17,
+         0.25
+        ],
+        [
+         0.17,
+         0.4
+        ],
+        [
+         0.17,
+         0.55
+        ]
+       ],
+       "espejo": true
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Borde de los omóplatos",
+      "tecnica": "Deslizamiento con yemas",
+      "duracion": 60,
+      "instruccion": "Con las yemas, recorre el borde interno del omóplato de abajo hacia arriba.",
+      "zonas": [
+       "st_omoplatos"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 3,
+       "trayectos": [
+        [
+         [
+          0.32,
+          0.2
+         ],
+         [
+          0.3,
+          0.36
+         ],
+         [
+          0.4,
+          0.5
+         ]
+        ]
+       ],
+       "espejo": true,
+       "pose": "yemas"
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Nuca",
+      "tecnica": "Amasado suave",
+      "duracion": 60,
+      "instruccion": "Abraza la nuca con una mano: el pulgar de un lado y los dedos del otro. Aprieta suave y suelta, subiendo hacia la cabeza. Con la otra mano sostén la frente.",
+      "zonas": [
+       "st_cuello"
+      ],
+      "movimiento": {
+       "tipo": "amasar",
+       "periodo": 1.8,
+       "centros": [
+        [
+         0,
+         0.84
+        ],
+        [
+         0,
+         0.92
+        ]
+       ],
+       "giro": 90
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Base del cráneo",
+      "tecnica": "Presión sostenida",
+      "duracion": 60,
+      "instruccion": "Con los pulgares, presiona justo debajo del hueso de la cabeza, a los lados del cuello. Sostén cinco segundos y suelta. Muy suave.",
+      "zonas": [
+       "st_craneo"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 5,
+       "centros": [
+        [
+         0.55,
+         1.04
+        ],
+        [
+         1,
+         1.06
+        ]
+       ],
+       "espejo": true
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Cierre sentado",
+      "tecnica": "Roce",
+      "duracion": 45,
+      "instruccion": "Para terminar, baja despacio con las palmas desde los hombros hasta media espalda, casi sin presión.",
+      "zonas": [
+       "st_hombros",
+       "st_junto"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 6,
+       "trayectos": [
+        [
+         [
+          0.75,
+          0.68
+         ],
+         [
+          0.45,
+          0.6
+         ],
+         [
+          0.3,
+          0.3
+         ],
+         [
+          0.3,
+          0.02
+         ]
+        ]
+       ],
+       "espejo": true
+      },
+      "presion": "suave"
+     }
+    ]
+   },
+   {
+    "id": "oficina",
+    "nombre": "Pausa de oficina",
+    "descripcion": "Unos minutos para quien pasa horas frente a la computadora: hombros, cuello y espalda alta, en su misma silla.",
+    "pasos": [
+     {
+      "nombre": "Golpecitos en los hombros",
+      "tecnica": "Percusión",
+      "duracion": 45,
+      "instruccion": "Con las manos ahuecadas, da golpecitos suaves y rápidos sobre los hombros, alternando las manos. Lejos del cuello y de la columna.",
+      "zonas": [
+       "st_hombros"
+      ],
+      "movimiento": {
+       "tipo": "percusion",
+       "golpe": "ahuecada",
+       "periodo": 0.5,
+       "centros": [
+        [
+         0.6,
+         0.74
+        ],
+        [
+         0.78,
+         0.69
+        ]
+       ],
+       "espejo": true
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Apretar y soltar",
+      "tecnica": "Amasado",
+      "duracion": 75,
+      "instruccion": "Aprieta el músculo del hombro, sostén dos segundos y suelta. Avanza del cuello hacia afuera.",
+      "zonas": [
+       "st_hombros"
+      ],
+      "movimiento": {
+       "tipo": "amasar",
+       "periodo": 1.4,
+       "centros": [
+        [
+         0.5,
+         0.78
+        ],
+        [
+         0.72,
+         0.7
+        ]
+       ],
+       "espejo": true
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Entre los omóplatos",
+      "tecnica": "Fricción",
+      "duracion": 75,
+      "instruccion": "Con las yemas, frota corto y rápido entre la columna y el omóplato, de adentro hacia afuera, para calentar.",
+      "zonas": [
+       "st_junto",
+       "st_omoplatos"
+      ],
+      "movimiento": {
+       "tipo": "friccion",
+       "periodo": 1,
+       "segmentos": [
+        [
+         [
+          0.14,
+          0.3
+         ],
+         [
+          0.3,
+          0.3
+         ]
+        ],
+        [
+         [
+          0.14,
+          0.45
+         ],
+         [
+          0.3,
+          0.45
+         ]
+        ]
+       ],
+       "espejo": true
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Puntos de tensión del hombro",
+      "tecnica": "Presión sostenida",
+      "duracion": 75,
+      "instruccion": "Con los pulgares, presiona el punto más duro de encima del hombro. Aprieta despacio, sostén y suelta. Debe ser un dolor agradable; pregunta.",
+      "zonas": [
+       "st_hombros"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 5,
+       "centros": [
+        [
+         0.5,
+         0.78
+        ],
+        [
+         0.7,
+         0.71
+        ]
+       ],
+       "espejo": true
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "Aflojar la nuca",
+      "tecnica": "Amasado suave",
+      "duracion": 45,
+      "instruccion": "Abraza la nuca con una mano y amasa suave hacia arriba. Sostén la frente con la otra mano.",
+      "zonas": [
+       "st_cuello"
+      ],
+      "movimiento": {
+       "tipo": "amasar",
+       "periodo": 1.8,
+       "centros": [
+        [
+         0,
+         0.84
+        ],
+        [
+         0,
+         0.92
+        ]
+       ],
+       "giro": 90
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Pasadas finales",
+      "tecnica": "Deslizamiento",
+      "duracion": 45,
+      "instruccion": "Pasadas largas y lentas de los hombros hacia abajo para terminar.",
+      "zonas": [
+       "st_hombros",
+       "st_junto"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 6,
+       "trayectos": [
+        [
+         [
+          0.75,
+          0.68
+         ],
+         [
+          0.45,
+          0.6
+         ],
+         [
+          0.3,
+          0.3
+         ],
+         [
+          0.3,
+          0.02
+         ]
+        ]
+       ],
+       "espejo": true
+      },
+      "presion": "suave"
+     }
+    ]
+   },
+   {
+    "id": "movilidad",
+    "nombre": "Mover cuello y brazos",
+    "descripcion": "Estiramientos suaves de cuello y hombro, sentado. La pantalla de arriba muestra el movimiento. Nunca fuerces el cuello.",
+    "pasos": [
+     {
+      "nombre": "Manos sobre los hombros",
+      "tecnica": "Contacto",
+      "duracion": 30,
+      "instruccion": "Párate detrás. Apoya las palmas sobre los hombros y pide que respire hondo tres veces. Todavía no aprietes.",
+      "zonas": [
+       "st_hombros"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 6,
+       "centros": [
+        [
+         0.7,
+         0.72
+        ]
+       ],
+       "espejo": true,
+       "mano": "palma"
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Amasar los hombros",
+      "tecnica": "Amasado",
+      "duracion": 60,
+      "instruccion": "Toma el músculo de encima del hombro entre el pulgar y los dedos, aprieta y suelta, del cuello hacia afuera. Pregunta si la presión está bien.",
+      "zonas": [
+       "st_hombros"
+      ],
+      "movimiento": {
+       "tipo": "amasar",
+       "periodo": 1.6,
+       "centros": [
+        [
+         0.45,
+         0.8
+        ],
+        [
+         0.62,
+         0.74
+        ],
+        [
+         0.8,
+         0.68
+        ]
+       ],
+       "espejo": true
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Inclinar la cabeza",
+      "tecnica": "Estiramiento",
+      "duracion": 60,
+      "instruccion": "Apoya una mano en el hombro para que no suba. Con la otra, inclina la cabeza hacia el lado contrario, muy despacio. Sostén cinco segundos, regresa y cambia de lado.",
+      "zonas": [
+       "st_cuello"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 6,
+       "centros": [
+        [
+         0.75,
+         0.72
+        ]
+       ],
+       "mano": "palma",
+       "maniqui": "cuello",
+       "periodoManiqui": 7
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Balancear el brazo",
+      "tecnica": "Movilización",
+      "duracion": 45,
+      "instruccion": "Apoya una mano sobre el hombro. Con la otra, toma el brazo por la muñeca y balancéalo adelante y atrás, suelto, como un péndulo. Luego el otro brazo.",
+      "zonas": [
+       "st_hombros"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 6,
+       "centros": [
+        [
+         0.8,
+         0.66
+        ]
+       ],
+       "mano": "palma",
+       "maniqui": "pendulo",
+       "periodoManiqui": 2.6
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Pasadas finales",
+      "tecnica": "Deslizamiento",
+      "duracion": 45,
+      "instruccion": "Pasadas largas y lentas de los hombros hacia abajo para terminar.",
+      "zonas": [
+       "st_hombros",
+       "st_junto"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 6,
+       "trayectos": [
+        [
+         [
+          0.75,
+          0.68
+         ],
+         [
+          0.45,
+          0.6
+         ],
+         [
+          0.3,
+          0.3
+         ],
+         [
+          0.3,
+          0.02
+         ]
+        ]
+       ],
+       "espejo": true
+      },
+      "presion": "suave"
      }
     ]
    }
