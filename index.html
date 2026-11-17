@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guía de masaje XR</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #10141c; color: #e8edf5; font-family: system-ui, sans-serif; overflow: hidden; }
+  #ui { position: fixed; top: 12px; left: 12px; right: 12px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; z-index: 2; }
+  #ui h1 { font-size: 18px; margin: 0 12px 0 0; }
+  button { font: inherit; font-size: 15px; padding: 10px 16px; border-radius: 10px; border: 0; background: #2f6fed; color: #fff; cursor: pointer; }
+  button.sec { background: #2a3242; }
+  button:disabled { opacity: .45; cursor: default; }
+  #estado { width: 100%; font-size: 14px; opacity: .8; }
+  canvas { display: block; }
+  #aviso { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); width: min(640px, calc(100% - 32px));
+    background: rgba(20,26,40,.94); border: 1px solid #34405a; border-radius: 16px; padding: 18px 22px; z-index: 3; font-size: 16px; line-height: 1.45; }
+  #aviso h2 { margin: 0 0 8px; font-size: 20px; }
+  #aviso ol { margin: 6px 0 0; padding-left: 22px; }
+  #aviso code { font-size: 22px; color: #7dffb2; font-weight: 700; user-select: all; }
+  #btnAR.grande { font-size: 22px; padding: 18px 30px; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "./vendor/three/three.module.js",
+  "three/addons/": "./vendor/three/addons/"
+} }
+</script>
+</head>
+<body>
+<div id="ui">
+  <h1>Guía de masaje XR</h1>
+  <button id="btnAR" disabled>Entrar en 3D</button>
+  <button id="btnDemo" class="sec">Reiniciar dibujo</button>
+  <div id="estado">Cargando…</div>
+</div>
+<div id="aviso" hidden>
+  <h2>Esto es la vista previa del PC, no el 3D</h2>
+  Para verlo en 3D, la página se tiene que abrir <b>dentro de los lentes</b>, no en el navegador del PC (aunque lo estés viendo en los lentes con Link o como pantalla):
+  <ol>
+    <li>Si estás con Link o Air Link, sal de él (vuelve al menú normal del Quest).</li>
+    <li>En la barra del Quest abre la app <b>Navegador</b> (Browser de Meta).</li>
+    <li>Escribe: <code id="url">https://192.168.100.8:8443</code></li>
+    <li>Si dice que la conexión no es privada: <b>Avanzado → Continuar</b>.</li>
+    <li>Toca el botón azul <b>Entrar en 3D</b> y acepta el permiso.</li>
+  </ol>
+  Tip: guárdala en favoritos del navegador del Quest para no escribirla otra vez.
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

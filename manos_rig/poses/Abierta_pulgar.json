@@ -1,0 +1,141 @@
+{
+ "modelo": "Abierta",
+ "pose": "pulgar",
+ "archivo": "mano_Abierta_puno.glb",
+ "nota": "cuaternion = rotación local final del hueso en la pose \"pulgares afuera\" (los huesos que faltan quedan como en el modelo)",
+ "fecha": "2026-11-17T04:01:41.460Z",
+ "huesos": {
+  "anular_1": {
+   "doblar": 90,
+   "abrir": -8,
+   "girar": 0,
+   "cuaternion": [
+    0.715841,
+    0.116383,
+    0.205802,
+    0.657017
+   ]
+  },
+  "anular_2": {
+   "doblar": 97,
+   "abrir": -12,
+   "girar": -1,
+   "cuaternion": [
+    0.781015,
+    -0.211989,
+    -0.027457,
+    0.58679
+   ]
+  },
+  "anular_3": {
+   "doblar": 60,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.382753,
+    -0.035928,
+    -0.049584,
+    0.921819
+   ]
+  },
+  "indice_1": {
+   "doblar": 85,
+   "abrir": 13,
+   "girar": 0,
+   "cuaternion": [
+    0.707888,
+    0.006007,
+    -0.153468,
+    0.689424
+   ]
+  },
+  "indice_2": {
+   "doblar": 100,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.814769,
+    -0.034002,
+    -0.019956,
+    0.578444
+   ]
+  },
+  "indice_3": {
+   "doblar": 65,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.467729,
+    0.036522,
+    0.040348,
+    0.882195
+   ]
+  },
+  "medio_1": {
+   "doblar": 84,
+   "abrir": 25,
+   "girar": 0,
+   "cuaternion": [
+    0.641155,
+    0.015068,
+    -0.3073,
+    0.703036
+   ]
+  },
+  "medio_2": {
+   "doblar": 92,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.794111,
+    0.229903,
+    0.179566,
+    0.533187
+   ]
+  },
+  "medio_3": {
+   "doblar": 66,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.471304,
+    -0.147086,
+    -0.147408,
+    0.857035
+   ]
+  },
+  "menique_1": {
+   "doblar": 65,
+   "abrir": -8,
+   "girar": 0,
+   "cuaternion": [
+    0.547971,
+    0.060772,
+    0.20682,
+    0.808245
+   ]
+  },
+  "menique_2": {
+   "doblar": 90,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.829639,
+    -0.074456,
+    -0.046079,
+    0.551392
+   ]
+  },
+  "menique_3": {
+   "doblar": 73,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.46246,
+    0.063565,
+    0.049161,
+    0.882991
+   ]
+  }
+ }
+}

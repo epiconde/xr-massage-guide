@@ -1,0 +1,174 @@
+{
+ "modelo": "Abierta",
+ "pose": "ahuecada",
+ "archivo": "mano_Abierta_puno.glb",
+ "nota": "cuaternion = rotación local final del hueso en la pose \"mano ahuecada\" (los huesos que faltan quedan como en el modelo)",
+ "fecha": "2026-11-17T04:13:28.497Z",
+ "huesos": {
+  "anular_1": {
+   "doblar": 19,
+   "abrir": -7,
+   "girar": 0,
+   "cuaternion": [
+    0.188061,
+    0.031144,
+    0.284137,
+    0.939643
+   ]
+  },
+  "anular_2": {
+   "doblar": 21,
+   "abrir": -7,
+   "girar": 0,
+   "cuaternion": [
+    0.266817,
+    -0.063655,
+    -0.082708,
+    0.95808
+   ]
+  },
+  "anular_3": {
+   "doblar": 10,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.042685,
+    -0.011607,
+    -0.060122,
+    0.99721
+   ]
+  },
+  "indice_1": {
+   "doblar": 21,
+   "abrir": 7,
+   "girar": 4,
+   "cuaternion": [
+    0.231351,
+    0.02385,
+    -0.153395,
+    0.960405
+   ]
+  },
+  "indice_2": {
+   "doblar": 21,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.26076,
+    -0.013543,
+    -0.037027,
+    0.964598
+   ]
+  },
+  "indice_3": {
+   "doblar": 8,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.009898,
+    0.012843,
+    0.052886,
+    0.998469
+   ]
+  },
+  "medio_1": {
+   "doblar": 23,
+   "abrir": 10,
+   "girar": 0,
+   "cuaternion": [
+    0.162203,
+    -0.017785,
+    -0.274005,
+    0.947784
+   ]
+  },
+  "medio_2": {
+   "doblar": 20,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.32905,
+    0.080449,
+    0.280406,
+    0.898124
+   ]
+  },
+  "medio_3": {
+   "doblar": 9,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.005248,
+    -0.058924,
+    -0.199728,
+    0.978064
+   ]
+  },
+  "menique_1": {
+   "doblar": 17,
+   "abrir": -5,
+   "girar": 0,
+   "cuaternion": [
+    0.162819,
+    0.022237,
+    0.219337,
+    0.96171
+   ]
+  },
+  "menique_2": {
+   "doblar": 20,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.363335,
+    -0.034561,
+    -0.080452,
+    0.927535
+   ]
+  },
+  "menique_3": {
+   "doblar": 9,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.075726,
+    0.027855,
+    0.075375,
+    0.993885
+   ]
+  },
+  "pulgar_meta": {
+   "doblar": 18,
+   "abrir": -4,
+   "girar": 0,
+   "cuaternion": [
+    0.10554,
+    0.035445,
+    0.232445,
+    0.966217
+   ]
+  },
+  "pulgar_1": {
+   "doblar": 11,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.275906,
+    0.034737,
+    0.039549,
+    0.959742
+   ]
+  },
+  "pulgar_2": {
+   "doblar": 5,
+   "abrir": 5,
+   "girar": -2,
+   "cuaternion": [
+    0.037722,
+    -0.056849,
+    -0.142704,
+    0.987411
+   ]
+  }
+ }
+}

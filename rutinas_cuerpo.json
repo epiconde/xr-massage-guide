@@ -1,0 +1,2252 @@
+{
+ "nota": "Masajes de brazos, piernas, manos y pies (la espalda está en rutinas.json). Las coordenadas (u, v) de cada parte están explicadas en cuerpo.js. Además de lo de rutinas.json, \"movimiento\" acepta: \"giro\" (grados que se gira la mano; 90 = atravesada, abrazando el brazo o la pierna) y \"apoyo\": [u, v] (la otra mano sostiene ahí, quieta). Aquí los pasos son de una sola mano: en un brazo o un pie no caben dos lado a lado.",
+ "modulos": {
+  "brazo": [
+   {
+    "id": "relajante",
+    "nombre": "Relajante",
+    "descripcion": "Movimientos largos y suaves de la muñeca al hombro, siempre hacia el corazón. Bueno para empezar.",
+    "pasos": [
+     {
+      "nombre": "Contacto y aceite",
+      "tecnica": "Deslizamiento suave",
+      "duracion": 45,
+      "instruccion": "Calienta el aceite en tus manos. Con la palma, sube de la muñeca al hombro y regresa por fuera casi sin presión. Pasa suave por el codo.",
+      "zonas": [
+       "b_antebrazo",
+       "b_brazo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 6,
+       "trayectos": [
+        [
+         [
+          0,
+          0.1
+         ],
+         [
+          0,
+          0.42
+         ],
+         [
+          0,
+          0.6
+         ],
+         [
+          0,
+          0.93
+         ],
+         [
+          0.7,
+          0.7
+         ],
+         [
+          0.7,
+          0.14
+         ]
+        ]
+       ]
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Deslizamientos hacia el hombro",
+      "tecnica": "Deslizamiento con presión media",
+      "duracion": 90,
+      "instruccion": "El mismo recorrido con un poco más de presión al subir. La presión siempre va hacia el hombro; al bajar solo acompañas.",
+      "zonas": [
+       "b_antebrazo",
+       "b_brazo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 5,
+       "trayectos": [
+        [
+         [
+          0,
+          0.1
+         ],
+         [
+          0,
+          0.42
+         ],
+         [
+          0,
+          0.6
+         ],
+         [
+          0,
+          0.93
+         ],
+         [
+          0.7,
+          0.7
+         ],
+         [
+          0.7,
+          0.14
+         ]
+        ]
+       ]
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Amasado del antebrazo",
+      "tecnica": "Amasado",
+      "duracion": 75,
+      "instruccion": "Abraza el antebrazo con la mano en C y amásalo como masa de pan, de la muñeca hacia el codo.",
+      "zonas": [
+       "b_antebrazo"
+      ],
+      "movimiento": {
+       "tipo": "amasar",
+       "periodo": 1.6,
+       "centros": [
+        [
+         0,
+         0.16
+        ],
+        [
+         0,
+         0.26
+        ],
+        [
+         0,
+         0.36
+        ]
+       ],
+       "giro": 90
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Amasado del brazo",
+      "tecnica": "Amasado",
+      "duracion": 75,
+      "instruccion": "Lo mismo arriba del codo: toma el músculo entre el pulgar y los dedos, aprieta y suelta, subiendo hacia el hombro.",
+      "zonas": [
+       "b_brazo"
+      ],
+      "movimiento": {
+       "tipo": "amasar",
+       "periodo": 1.6,
+       "centros": [
+        [
+         0,
+         0.6
+        ],
+        [
+         0,
+         0.71
+        ],
+        [
+         0,
+         0.82
+        ]
+       ],
+       "giro": 90
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Círculos en el antebrazo",
+      "tecnica": "Presión circular con el pulgar",
+      "duracion": 90,
+      "instruccion": "Círculos pequeños con el pulgar sobre el músculo, subiendo por un lado y bajando por el otro. No sobre el hueso.",
+      "zonas": [
+       "b_antebrazo"
+      ],
+      "movimiento": {
+       "tipo": "circulos",
+       "periodo": 1.4,
+       "radio": 0.011,
+       "centros": [
+        [
+         -0.35,
+         0.14
+        ],
+        [
+         -0.35,
+         0.25
+        ],
+        [
+         -0.35,
+         0.36
+        ],
+        [
+         0.35,
+         0.36
+        ],
+        [
+         0.35,
+         0.25
+        ],
+        [
+         0.35,
+         0.14
+        ]
+       ]
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Círculos en el hombro",
+      "tecnica": "Círculos con la palma",
+      "duracion": 60,
+      "instruccion": "Con la palma, haz círculos lentos y amplios alrededor del hombro.",
+      "zonas": [
+       "b_hombro"
+      ],
+      "movimiento": {
+       "tipo": "circulos",
+       "periodo": 3,
+       "radio": 0.025,
+       "centros": [
+        [
+         0,
+         0.95
+        ]
+       ],
+       "mano": "palma"
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Roce final",
+      "tecnica": "Deslizamiento con las yemas",
+      "duracion": 45,
+      "instruccion": "Para terminar, baja muy despacio con las yemas de los dedos, del hombro a la muñeca, casi sin tocar.",
+      "zonas": [
+       "b_antebrazo",
+       "b_brazo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 6,
+       "trayectos": [
+        [
+         [
+          0,
+          0.93
+         ],
+         [
+          0,
+          0.5
+         ],
+         [
+          0,
+          0.08
+         ]
+        ]
+       ],
+       "pose": "yemas"
+      },
+      "presion": "suave"
+     }
+    ]
+   },
+   {
+    "id": "antebrazo",
+    "nombre": "Antebrazo cansado",
+    "descripcion": "Para quien usa mucho el teclado, el celular o herramientas: afloja el antebrazo y la muñeca.",
+    "pasos": [
+     {
+      "nombre": "Calentar el antebrazo",
+      "tecnica": "Deslizamiento",
+      "duracion": 60,
+      "instruccion": "Con la palma, sube de la muñeca al codo y regresa por un lado. Varias pasadas hasta que la piel se sienta tibia.",
+      "zonas": [
+       "b_antebrazo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 4,
+       "trayectos": [
+        [
+         [
+          0,
+          0.08
+         ],
+         [
+          0,
+          0.42
+         ],
+         [
+          0.65,
+          0.3
+         ],
+         [
+          0.65,
+          0.1
+         ]
+        ]
+       ]
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Fricción a lo largo",
+      "tecnica": "Fricción con el pulgar",
+      "duracion": 90,
+      "instruccion": "Con el pulgar, ve y ven a lo largo del músculo, primero de un lado del antebrazo y luego del otro.",
+      "zonas": [
+       "b_antebrazo"
+      ],
+      "movimiento": {
+       "tipo": "friccion",
+       "periodo": 1.2,
+       "segmentos": [
+        [
+         [
+          -0.35,
+          0.12
+         ],
+         [
+          -0.35,
+          0.38
+         ]
+        ],
+        [
+         [
+          0.35,
+          0.12
+         ],
+         [
+          0.35,
+          0.38
+         ]
+        ]
+       ],
+       "mano": "pulgar"
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Puntos de tensión",
+      "tecnica": "Presión sostenida",
+      "duracion": 90,
+      "instruccion": "Presiona con el pulgar la parte carnosa cerca del codo: aprieta despacio, sostén y suelta. Debe ser un dolor agradable; pregunta.",
+      "zonas": [
+       "b_antebrazo"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 5,
+       "centros": [
+        [
+         0.35,
+         0.37
+        ],
+        [
+         0.35,
+         0.29
+        ],
+        [
+         0.35,
+         0.21
+        ],
+        [
+         -0.35,
+         0.21
+        ],
+        [
+         -0.35,
+         0.29
+        ],
+        [
+         -0.35,
+         0.37
+        ]
+       ]
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "Nudillos hacia el codo",
+      "tecnica": "Deslizamiento con los nudillos",
+      "duracion": 75,
+      "instruccion": "Con el puño suelto, desliza los nudillos despacio de la muñeca hacia el codo. Solo sobre el músculo.",
+      "zonas": [
+       "b_antebrazo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 5,
+       "trayectos": [
+        [
+         [
+          0,
+          0.12
+         ],
+         [
+          0,
+          0.4
+         ]
+        ]
+       ],
+       "pose": "nudillos"
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "Aflojar la muñeca",
+      "tecnica": "Círculos con el pulgar",
+      "duracion": 60,
+      "instruccion": "Círculos muy pequeños con el pulgar alrededor de la muñeca. Presión ligera: aquí hay tendones y hueso.",
+      "zonas": [
+       "b_muneca"
+      ],
+      "movimiento": {
+       "tipo": "circulos",
+       "periodo": 1.4,
+       "radio": 0.007,
+       "centros": [
+        [
+         -0.45,
+         0.03
+        ],
+        [
+         0,
+         0.03
+        ],
+        [
+         0.45,
+         0.03
+        ]
+       ]
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Amasado suave",
+      "tecnica": "Amasado",
+      "duracion": 60,
+      "instruccion": "Abraza el antebrazo y amásalo despacio para soltar lo que trabajaste.",
+      "zonas": [
+       "b_antebrazo"
+      ],
+      "movimiento": {
+       "tipo": "amasar",
+       "periodo": 1.8,
+       "centros": [
+        [
+         0,
+         0.18
+        ],
+        [
+         0,
+         0.28
+        ],
+        [
+         0,
+         0.37
+        ]
+       ],
+       "giro": 90
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Cierre",
+      "tecnica": "Deslizamiento suave",
+      "duracion": 45,
+      "instruccion": "Termina con pasadas largas y lentas de la muñeca al hombro.",
+      "zonas": [
+       "b_antebrazo",
+       "b_brazo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 7,
+       "trayectos": [
+        [
+         [
+          0,
+          0.1
+         ],
+         [
+          0,
+          0.42
+         ],
+         [
+          0,
+          0.6
+         ],
+         [
+          0,
+          0.93
+         ],
+         [
+          0.7,
+          0.7
+         ],
+         [
+          0.7,
+          0.14
+         ]
+        ]
+       ]
+      },
+      "presion": "suave"
+     }
+    ]
+   }
+  ],
+  "pierna": [
+   {
+    "id": "relajante",
+    "nombre": "Relajante",
+    "descripcion": "La parte de atrás de la pierna, con la persona boca abajo. Movimientos largos hacia el corazón.",
+    "pasos": [
+     {
+      "nombre": "Contacto y aceite",
+      "tecnica": "Deslizamiento suave",
+      "duracion": 60,
+      "instruccion": "Con la palma, sube del tobillo al glúteo y regresa por fuera sin presión. Detrás de la rodilla pasa rozando, sin apretar.",
+      "zonas": [
+       "p_pantorrilla",
+       "p_muslo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 7,
+       "trayectos": [
+        [
+         [
+          0,
+          0.12
+         ],
+         [
+          0,
+          0.42
+         ],
+         [
+          0,
+          0.6
+         ],
+         [
+          0,
+          0.95
+         ],
+         [
+          0.7,
+          0.75
+         ],
+         [
+          0.7,
+          0.16
+         ]
+        ]
+       ]
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Deslizamientos en la pantorrilla",
+      "tecnica": "Deslizamiento con presión media",
+      "duracion": 90,
+      "instruccion": "Sube del tobillo hacia la rodilla con presión media y regresa por un lado. Detente antes del hueco de la rodilla.",
+      "zonas": [
+       "p_pantorrilla"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 4.5,
+       "trayectos": [
+        [
+         [
+          0,
+          0.12
+         ],
+         [
+          0,
+          0.42
+         ],
+         [
+          0.65,
+          0.32
+         ],
+         [
+          0.65,
+          0.14
+         ]
+        ]
+       ]
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Amasado de la pantorrilla",
+      "tecnica": "Amasado",
+      "duracion": 90,
+      "instruccion": "Abraza la pantorrilla con la mano en C y amásala, subiendo poco a poco. Pregunta si la presión está bien.",
+      "zonas": [
+       "p_pantorrilla"
+      ],
+      "movimiento": {
+       "tipo": "amasar",
+       "periodo": 1.6,
+       "centros": [
+        [
+         0,
+         0.2
+        ],
+        [
+         0,
+         0.29
+        ],
+        [
+         0,
+         0.38
+        ]
+       ],
+       "giro": 90
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Deslizamientos en el muslo",
+      "tecnica": "Deslizamiento con presión media",
+      "duracion": 90,
+      "instruccion": "Empieza arriba de la rodilla y sube hasta el pliegue del glúteo. Regresa por fuera sin presión.",
+      "zonas": [
+       "p_muslo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 4.5,
+       "trayectos": [
+        [
+         [
+          0,
+          0.6
+         ],
+         [
+          0,
+          0.95
+         ],
+         [
+          0.65,
+          0.82
+         ],
+         [
+          0.65,
+          0.63
+         ]
+        ]
+       ]
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Amasado del muslo",
+      "tecnica": "Amasado",
+      "duracion": 90,
+      "instruccion": "El muslo es un músculo grande: toma bastante con toda la mano, aprieta y suelta, subiendo.",
+      "zonas": [
+       "p_muslo"
+      ],
+      "movimiento": {
+       "tipo": "amasar",
+       "periodo": 1.7,
+       "centros": [
+        [
+         0,
+         0.66
+        ],
+        [
+         0,
+         0.77
+        ],
+        [
+         0,
+         0.88
+        ]
+       ],
+       "giro": 90
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Círculos en la pantorrilla",
+      "tecnica": "Presión circular con el pulgar",
+      "duracion": 90,
+      "instruccion": "Círculos con el pulgar a los lados de la pantorrilla, subiendo por uno y bajando por el otro.",
+      "zonas": [
+       "p_pantorrilla"
+      ],
+      "movimiento": {
+       "tipo": "circulos",
+       "periodo": 1.4,
+       "radio": 0.014,
+       "centros": [
+        [
+         -0.4,
+         0.18
+        ],
+        [
+         -0.4,
+         0.28
+        ],
+        [
+         -0.4,
+         0.38
+        ],
+        [
+         0.4,
+         0.38
+        ],
+        [
+         0.4,
+         0.28
+        ],
+        [
+         0.4,
+         0.18
+        ]
+       ]
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Palmoteo en el muslo",
+      "tecnica": "Percusión suave",
+      "duracion": 45,
+      "instruccion": "Con la mano ahuecada, da palmaditas rápidas y ligeras en el muslo. Debe sonar hueco, no doler.",
+      "zonas": [
+       "p_muslo"
+      ],
+      "movimiento": {
+       "tipo": "percusion",
+       "golpe": "ahuecada",
+       "periodo": 0.35,
+       "centros": [
+        [
+         0,
+         0.68
+        ],
+        [
+         0,
+         0.78
+        ],
+        [
+         0,
+         0.88
+        ]
+       ]
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Roce final",
+      "tecnica": "Deslizamiento con las yemas",
+      "duracion": 45,
+      "instruccion": "Baja muy despacio con las yemas, del glúteo al tobillo, casi sin tocar.",
+      "zonas": [
+       "p_pantorrilla",
+       "p_muslo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 7,
+       "trayectos": [
+        [
+         [
+          0,
+          0.95
+         ],
+         [
+          0,
+          0.5
+         ],
+         [
+          0,
+          0.1
+         ]
+        ]
+       ],
+       "pose": "yemas"
+      },
+      "presion": "suave"
+     }
+    ]
+   },
+   {
+    "id": "cansadas",
+    "nombre": "Piernas cansadas",
+    "descripcion": "Más firme, para después de caminar, correr o estar mucho de pie. Todo hacia el corazón.",
+    "pasos": [
+     {
+      "nombre": "Calentar la pierna",
+      "tecnica": "Deslizamiento",
+      "duracion": 60,
+      "instruccion": "Pasadas largas del tobillo al glúteo para calentar. Presión al subir; al bajar solo acompañas.",
+      "zonas": [
+       "p_pantorrilla",
+       "p_muslo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 5,
+       "trayectos": [
+        [
+         [
+          0,
+          0.12
+         ],
+         [
+          0,
+          0.42
+         ],
+         [
+          0,
+          0.6
+         ],
+         [
+          0,
+          0.95
+         ],
+         [
+          0.7,
+          0.75
+         ],
+         [
+          0.7,
+          0.16
+         ]
+        ]
+       ]
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Junto al tendón",
+      "tecnica": "Fricción con el pulgar",
+      "duracion": 60,
+      "instruccion": "Con el pulgar, ve y ven a los lados del tendón de Aquiles, no encima. Presión ligera.",
+      "zonas": [
+       "p_aquiles"
+      ],
+      "movimiento": {
+       "tipo": "friccion",
+       "periodo": 1.1,
+       "segmentos": [
+        [
+         [
+          -0.55,
+          0.03
+         ],
+         [
+          -0.55,
+          0.11
+         ]
+        ],
+        [
+         [
+          0.55,
+          0.03
+         ],
+         [
+          0.55,
+          0.11
+         ]
+        ]
+       ],
+       "mano": "pulgar"
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Amasado profundo de la pantorrilla",
+      "tecnica": "Amasado",
+      "duracion": 90,
+      "instruccion": "Amasa la pantorrilla con más fuerza, despacio. Si el músculo se pone duro o duele, baja la presión.",
+      "zonas": [
+       "p_pantorrilla"
+      ],
+      "movimiento": {
+       "tipo": "amasar",
+       "periodo": 1.8,
+       "centros": [
+        [
+         0,
+         0.2
+        ],
+        [
+         0,
+         0.29
+        ],
+        [
+         0,
+         0.38
+        ]
+       ],
+       "giro": 90
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "Puntos de la pantorrilla",
+      "tecnica": "Presión sostenida",
+      "duracion": 90,
+      "instruccion": "Presiona con el pulgar el centro de la pantorrilla: aprieta despacio, sostén y suelta. Un dolor agradable, no más.",
+      "zonas": [
+       "p_pantorrilla"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 5,
+       "centros": [
+        [
+         0,
+         0.38
+        ],
+        [
+         0,
+         0.3
+        ],
+        [
+         0,
+         0.22
+        ]
+       ]
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "Puño suelto en el muslo",
+      "tecnica": "Deslizamiento con los nudillos",
+      "duracion": 90,
+      "instruccion": "Con el puño suelto, desliza los nudillos despacio desde arriba de la rodilla hasta el glúteo.",
+      "zonas": [
+       "p_muslo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 6,
+       "trayectos": [
+        [
+         [
+          0,
+          0.61
+         ],
+         [
+          0,
+          0.94
+         ]
+        ]
+       ],
+       "pose": "nudillos"
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "Amasado del muslo",
+      "tecnica": "Amasado",
+      "duracion": 90,
+      "instruccion": "Toma el músculo del muslo con toda la mano, aprieta y suelta. Sube poco a poco.",
+      "zonas": [
+       "p_muslo"
+      ],
+      "movimiento": {
+       "tipo": "amasar",
+       "periodo": 1.8,
+       "centros": [
+        [
+         0,
+         0.66
+        ],
+        [
+         0,
+         0.77
+        ],
+        [
+         0,
+         0.88
+        ]
+       ],
+       "giro": 90
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "Golpecitos en el muslo",
+      "tecnica": "Percusión",
+      "duracion": 45,
+      "instruccion": "Con el canto de la mano, golpecitos rápidos y sueltos sobre el muslo. La muñeca floja.",
+      "zonas": [
+       "p_muslo"
+      ],
+      "movimiento": {
+       "tipo": "percusion",
+       "golpe": "canto",
+       "periodo": 0.3,
+       "centros": [
+        [
+         0,
+         0.68
+        ],
+        [
+         0,
+         0.78
+        ],
+        [
+         0,
+         0.88
+        ]
+       ]
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Descarga final",
+      "tecnica": "Deslizamiento suave",
+      "duracion": 60,
+      "instruccion": "Pasadas largas y lentas hacia el glúteo, como empujando el cansancio hacia arriba.",
+      "zonas": [
+       "p_pantorrilla",
+       "p_muslo"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 7,
+       "trayectos": [
+        [
+         [
+          0,
+          0.12
+         ],
+         [
+          0,
+          0.42
+         ],
+         [
+          0,
+          0.6
+         ],
+         [
+          0,
+          0.95
+         ],
+         [
+          0.7,
+          0.75
+         ],
+         [
+          0.7,
+          0.16
+         ]
+        ]
+       ]
+      },
+      "presion": "suave"
+     }
+    ]
+   }
+  ],
+  "mano": [
+   {
+    "id": "relajante",
+    "nombre": "Relajante",
+    "descripcion": "Palma, dedos y muñeca. Corto y muy agradable; va bien después del brazo.",
+    "pasos": [
+     {
+      "nombre": "Contacto",
+      "tecnica": "Deslizamiento suave",
+      "duracion": 30,
+      "instruccion": "Sostén su mano con una de las tuyas. Con la otra palma, deslízate de la muñeca a la punta de los dedos.",
+      "zonas": [
+       "m_palma",
+       "m_dedos"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 5,
+       "trayectos": [
+        [
+         [
+          0,
+          0.1
+         ],
+         [
+          0,
+          0.5
+         ],
+         [
+          0,
+          0.92
+         ]
+        ]
+       ]
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Abrir la palma",
+      "tecnica": "Deslizamiento con el pulgar",
+      "duracion": 60,
+      "instruccion": "Con el pulgar, deslízate del centro de la palma hacia las orillas, como planchándola para abrirla.",
+      "zonas": [
+       "m_palma"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 2.5,
+       "trayectos": [
+        [
+         [
+          0,
+          0.3
+         ],
+         [
+          -0.8,
+          0.36
+         ]
+        ],
+        [
+         [
+          0,
+          0.3
+         ],
+         [
+          0.75,
+          0.3
+         ]
+        ],
+        [
+         [
+          0,
+          0.42
+         ],
+         [
+          -0.8,
+          0.46
+         ]
+        ],
+        [
+         [
+          0,
+          0.2
+         ],
+         [
+          0.7,
+          0.18
+         ]
+        ]
+       ],
+       "mano": "pulgar"
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Círculos en la palma",
+      "tecnica": "Presión circular con el pulgar",
+      "duracion": 75,
+      "instruccion": "Círculos pequeños con el pulgar por toda la palma. Aquí aguanta buena presión.",
+      "zonas": [
+       "m_palma"
+      ],
+      "movimiento": {
+       "tipo": "circulos",
+       "periodo": 1.4,
+       "radio": 0.008,
+       "centros": [
+        [
+         -0.5,
+         0.2
+        ],
+        [
+         -0.5,
+         0.38
+        ],
+        [
+         0,
+         0.42
+        ],
+        [
+         0,
+         0.24
+        ]
+       ]
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Base del pulgar",
+      "tecnica": "Presión circular con el pulgar",
+      "duracion": 60,
+      "instruccion": "El cojín de la base del pulgar es el que más trabaja: círculos lentos y profundos.",
+      "zonas": [
+       "m_pulgar"
+      ],
+      "movimiento": {
+       "tipo": "circulos",
+       "periodo": 1.5,
+       "radio": 0.009,
+       "centros": [
+        [
+         0.6,
+         0.2
+        ],
+        [
+         0.65,
+         0.32
+        ]
+       ]
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Estirar cada dedo",
+      "tecnica": "Deslizamiento con pulgar e índice",
+      "duracion": 75,
+      "instruccion": "Toma cada dedo entre tu pulgar y tu índice y deslízate de la base a la punta, con un jaloncito suave al final.",
+      "zonas": [
+       "m_dedos"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 3,
+       "trayectos": [
+        [
+         [
+          -0.78,
+          0.57
+         ],
+         [
+          -0.78,
+          0.8
+         ]
+        ],
+        [
+         [
+          -0.3,
+          0.58
+         ],
+         [
+          -0.3,
+          0.94
+         ]
+        ],
+        [
+         [
+          0.2,
+          0.59
+         ],
+         [
+          0.2,
+          0.99
+         ]
+        ],
+        [
+         [
+          0.68,
+          0.58
+         ],
+         [
+          0.68,
+          0.92
+         ]
+        ],
+        [
+         [
+          1.15,
+          0.5
+         ],
+         [
+          1.55,
+          0.68
+         ]
+        ]
+       ],
+       "pose": "pinza"
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Aflojar la muñeca",
+      "tecnica": "Círculos con el pulgar",
+      "duracion": 45,
+      "instruccion": "Círculos muy pequeños y ligeros alrededor de la muñeca.",
+      "zonas": [
+       "m_muneca"
+      ],
+      "movimiento": {
+       "tipo": "circulos",
+       "periodo": 1.4,
+       "radio": 0.007,
+       "centros": [
+        [
+         -0.45,
+         0.04
+        ],
+        [
+         0,
+         0.04
+        ],
+        [
+         0.45,
+         0.04
+        ]
+       ]
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Cierre",
+      "tecnica": "Deslizamiento suave",
+      "duracion": 30,
+      "instruccion": "Termina envolviendo su mano entre las tuyas y deslizándote despacio hasta soltar los dedos.",
+      "zonas": [
+       "m_palma",
+       "m_dedos"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 6,
+       "trayectos": [
+        [
+         [
+          0,
+          0.1
+         ],
+         [
+          0,
+          0.5
+         ],
+         [
+          0,
+          0.92
+         ]
+        ]
+       ]
+      },
+      "presion": "suave"
+     }
+    ]
+   },
+   {
+    "id": "cansadas",
+    "nombre": "Manos cansadas",
+    "descripcion": "Más presión en la palma y en la base del pulgar. Para manos que escriben, cargan o aprietan todo el día.",
+    "pasos": [
+     {
+      "nombre": "Calentar",
+      "tecnica": "Deslizamiento",
+      "duracion": 30,
+      "instruccion": "Varias pasadas con la palma, de la muñeca a los dedos, para calentar la mano.",
+      "zonas": [
+       "m_palma",
+       "m_dedos"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 4,
+       "trayectos": [
+        [
+         [
+          0,
+          0.1
+         ],
+         [
+          0,
+          0.5
+         ],
+         [
+          0,
+          0.92
+         ]
+        ]
+       ]
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Fricción en la palma",
+      "tecnica": "Fricción con el pulgar",
+      "duracion": 75,
+      "instruccion": "Con el pulgar, ve y ven a lo largo de la palma, en tres carriles: del lado del meñique, al centro y junto al pulgar.",
+      "zonas": [
+       "m_palma"
+      ],
+      "movimiento": {
+       "tipo": "friccion",
+       "periodo": 1.1,
+       "segmentos": [
+        [
+         [
+          -0.55,
+          0.16
+         ],
+         [
+          -0.55,
+          0.47
+         ]
+        ],
+        [
+         [
+          -0.1,
+          0.16
+         ],
+         [
+          -0.1,
+          0.47
+         ]
+        ],
+        [
+         [
+          0.35,
+          0.22
+         ],
+         [
+          0.4,
+          0.47
+         ]
+        ]
+       ],
+       "mano": "pulgar"
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Puntos de la palma",
+      "tecnica": "Presión sostenida",
+      "duracion": 90,
+      "instruccion": "Presiona con el pulgar: aprieta despacio, sostén unos segundos y suelta. Pasa por el centro y la base de los dedos.",
+      "zonas": [
+       "m_palma"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 5,
+       "centros": [
+        [
+         0,
+         0.3
+        ],
+        [
+         -0.5,
+         0.3
+        ],
+        [
+         -0.5,
+         0.43
+        ],
+        [
+         0,
+         0.44
+        ],
+        [
+         0.4,
+         0.42
+        ]
+       ]
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "Base del pulgar",
+      "tecnica": "Presión sostenida",
+      "duracion": 75,
+      "instruccion": "Tres puntos en el cojín de la base del pulgar. Suele estar sensible: sube la presión poco a poco.",
+      "zonas": [
+       "m_pulgar"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 5,
+       "centros": [
+        [
+         0.6,
+         0.18
+        ],
+        [
+         0.65,
+         0.28
+        ],
+        [
+         0.72,
+         0.38
+        ]
+       ]
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "Articulaciones de los dedos",
+      "tecnica": "Círculos con el pulgar",
+      "duracion": 75,
+      "instruccion": "Círculos chiquitos sobre cada articulación de los dedos, sin forzarlas.",
+      "zonas": [
+       "m_dedos"
+      ],
+      "movimiento": {
+       "tipo": "circulos",
+       "periodo": 1.3,
+       "radio": 0.005,
+       "centros": [
+        [
+         -0.78,
+         0.66
+        ],
+        [
+         -0.3,
+         0.7
+        ],
+        [
+         0.2,
+         0.72
+        ],
+        [
+         0.68,
+         0.7
+        ],
+        [
+         -0.3,
+         0.84
+        ],
+        [
+         0.2,
+         0.87
+        ]
+       ]
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Estirar cada dedo",
+      "tecnica": "Deslizamiento con pulgar e índice",
+      "duracion": 60,
+      "instruccion": "Desliza cada dedo de la base a la punta entre tu pulgar y tu índice. No lo truenes.",
+      "zonas": [
+       "m_dedos"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 3,
+       "trayectos": [
+        [
+         [
+          -0.78,
+          0.57
+         ],
+         [
+          -0.78,
+          0.8
+         ]
+        ],
+        [
+         [
+          -0.3,
+          0.58
+         ],
+         [
+          -0.3,
+          0.94
+         ]
+        ],
+        [
+         [
+          0.2,
+          0.59
+         ],
+         [
+          0.2,
+          0.99
+         ]
+        ],
+        [
+         [
+          0.68,
+          0.58
+         ],
+         [
+          0.68,
+          0.92
+         ]
+        ],
+        [
+         [
+          1.15,
+          0.5
+         ],
+         [
+          1.55,
+          0.68
+         ]
+        ]
+       ],
+       "pose": "pinza"
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Aflojar la muñeca",
+      "tecnica": "Círculos con el pulgar",
+      "duracion": 45,
+      "instruccion": "Círculos ligeros alrededor de la muñeca.",
+      "zonas": [
+       "m_muneca"
+      ],
+      "movimiento": {
+       "tipo": "circulos",
+       "periodo": 1.4,
+       "radio": 0.007,
+       "centros": [
+        [
+         -0.45,
+         0.04
+        ],
+        [
+         0,
+         0.04
+        ],
+        [
+         0.45,
+         0.04
+        ]
+       ]
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Cierre",
+      "tecnica": "Deslizamiento suave",
+      "duracion": 30,
+      "instruccion": "Pasadas lentas de la muñeca a la punta de los dedos para terminar.",
+      "zonas": [
+       "m_palma",
+       "m_dedos"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 6,
+       "trayectos": [
+        [
+         [
+          0,
+          0.1
+         ],
+         [
+          0,
+          0.5
+         ],
+         [
+          0,
+          0.92
+         ]
+        ]
+       ]
+      },
+      "presion": "suave"
+     }
+    ]
+   }
+  ],
+  "pie": [
+   {
+    "id": "relajante",
+    "nombre": "Relajante",
+    "descripcion": "La planta del pie, del talón a los dedos. Presión firme y segura: el roce ligero da cosquillas.",
+    "pasos": [
+     {
+      "nombre": "Contacto",
+      "tecnica": "Deslizamiento con la palma",
+      "duracion": 30,
+      "instruccion": "Sostén el pie con una mano. Con la otra palma, deslízate del talón a los dedos con presión firme para no dar cosquillas.",
+      "zonas": [
+       "f_talon",
+       "f_arco",
+       "f_bola"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 4.5,
+       "trayectos": [
+        [
+         [
+          0,
+          0.1
+         ],
+         [
+          0,
+          0.5
+         ],
+         [
+          0,
+          0.9
+         ]
+        ]
+       ]
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Tres carriles con el pulgar",
+      "tecnica": "Deslizamiento con el pulgar",
+      "duracion": 90,
+      "instruccion": "Con el pulgar, sube del talón a los dedos en tres carriles: la orilla de afuera, el centro y la orilla de adentro.",
+      "zonas": [
+       "f_talon",
+       "f_arco",
+       "f_bola"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 3.5,
+       "trayectos": [
+        [
+         [
+          -0.5,
+          0.12
+         ],
+         [
+          -0.55,
+          0.8
+         ]
+        ],
+        [
+         [
+          0,
+          0.12
+         ],
+         [
+          0,
+          0.82
+         ]
+        ],
+        [
+         [
+          0.45,
+          0.12
+         ],
+         [
+          0.55,
+          0.82
+         ]
+        ]
+       ],
+       "mano": "pulgar"
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Círculos en el talón",
+      "tecnica": "Presión circular con el pulgar",
+      "duracion": 60,
+      "instruccion": "El talón tiene la piel gruesa: círculos con el pulgar y buena presión.",
+      "zonas": [
+       "f_talon"
+      ],
+      "movimiento": {
+       "tipo": "circulos",
+       "periodo": 1.4,
+       "radio": 0.009,
+       "centros": [
+        [
+         -0.3,
+         0.1
+        ],
+        [
+         0.3,
+         0.1
+        ],
+        [
+         0,
+         0.18
+        ]
+       ]
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "El arco",
+      "tecnica": "Fricción con el pulgar",
+      "duracion": 75,
+      "instruccion": "Ve y ven con el pulgar a lo largo del arco. Si le duele o se acalambra, baja la presión.",
+      "zonas": [
+       "f_arco"
+      ],
+      "movimiento": {
+       "tipo": "friccion",
+       "periodo": 1.2,
+       "segmentos": [
+        [
+         [
+          -0.3,
+          0.3
+         ],
+         [
+          -0.3,
+          0.58
+         ]
+        ],
+        [
+         [
+          0.2,
+          0.3
+         ],
+         [
+          0.2,
+          0.58
+         ]
+        ]
+       ],
+       "mano": "pulgar"
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Bola del pie",
+      "tecnica": "Presión circular con el pulgar",
+      "duracion": 75,
+      "instruccion": "Círculos con el pulgar en el cojín de debajo de los dedos, de un lado al otro.",
+      "zonas": [
+       "f_bola"
+      ],
+      "movimiento": {
+       "tipo": "circulos",
+       "periodo": 1.4,
+       "radio": 0.008,
+       "centros": [
+        [
+         -0.6,
+         0.73
+        ],
+        [
+         -0.2,
+         0.74
+        ],
+        [
+         0.2,
+         0.75
+        ],
+        [
+         0.6,
+         0.76
+        ]
+       ]
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Cada dedo",
+      "tecnica": "Deslizamiento con pulgar e índice",
+      "duracion": 60,
+      "instruccion": "Toma cada dedo entre tu pulgar y tu índice, gíralo un poco y deslízate hacia la punta con un jaloncito suave.",
+      "zonas": [
+       "f_dedos"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 2.5,
+       "trayectos": [
+        [
+         [
+          -0.78,
+          0.87
+         ],
+         [
+          -0.8,
+          0.96
+         ]
+        ],
+        [
+         [
+          -0.42,
+          0.88
+         ],
+         [
+          -0.43,
+          0.99
+         ]
+        ],
+        [
+         [
+          -0.05,
+          0.89
+         ],
+         [
+          -0.05,
+          1.01
+         ]
+        ],
+        [
+         [
+          0.3,
+          0.9
+         ],
+         [
+          0.32,
+          1.03
+         ]
+        ],
+        [
+         [
+          0.72,
+          0.88
+         ],
+         [
+          0.78,
+          1.06
+         ]
+        ]
+       ],
+       "pose": "pinza"
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Cierre",
+      "tecnica": "Deslizamiento con la palma",
+      "duracion": 30,
+      "instruccion": "Termina con pasadas lentas y firmes del talón a los dedos.",
+      "zonas": [
+       "f_talon",
+       "f_arco",
+       "f_bola"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 6,
+       "trayectos": [
+        [
+         [
+          0,
+          0.1
+         ],
+         [
+          0,
+          0.5
+         ],
+         [
+          0,
+          0.9
+         ]
+        ]
+       ]
+      },
+      "presion": "media"
+     }
+    ]
+   },
+   {
+    "id": "puntos",
+    "nombre": "Puntos de presión",
+    "descripcion": "Presiones sostenidas con el pulgar por toda la planta. Descansa mucho los pies después de un día parado.",
+    "pasos": [
+     {
+      "nombre": "Calentar",
+      "tecnica": "Deslizamiento con la palma",
+      "duracion": 45,
+      "instruccion": "Varias pasadas firmes con la palma, del talón a los dedos, hasta que el pie se sienta tibio.",
+      "zonas": [
+       "f_talon",
+       "f_arco",
+       "f_bola"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 4,
+       "trayectos": [
+        [
+         [
+          0,
+          0.1
+         ],
+         [
+          0,
+          0.5
+         ],
+         [
+          0,
+          0.9
+         ]
+        ]
+       ]
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Puntos del talón",
+      "tecnica": "Presión sostenida",
+      "duracion": 60,
+      "instruccion": "Presiona con el pulgar: aprieta despacio, sostén y suelta. Tres puntos en el talón.",
+      "zonas": [
+       "f_talon"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 5,
+       "centros": [
+        [
+         -0.35,
+         0.08
+        ],
+        [
+         0.35,
+         0.08
+        ],
+        [
+         0,
+         0.16
+        ]
+       ]
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "Puntos del arco",
+      "tecnica": "Presión sostenida",
+      "duracion": 90,
+      "instruccion": "Sube por un lado del arco y baja por el otro, punto por punto. Aquí es más sensible: presión media.",
+      "zonas": [
+       "f_arco"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 5,
+       "centros": [
+        [
+         -0.3,
+         0.3
+        ],
+        [
+         -0.3,
+         0.42
+        ],
+        [
+         -0.3,
+         0.55
+        ],
+        [
+         0.2,
+         0.55
+        ],
+        [
+         0.2,
+         0.42
+        ],
+        [
+         0.2,
+         0.3
+        ]
+       ]
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Nudillos en el arco",
+      "tecnica": "Deslizamiento con los nudillos",
+      "duracion": 60,
+      "instruccion": "Con el puño suelto, desliza los nudillos despacio del talón hacia la bola del pie.",
+      "zonas": [
+       "f_arco"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 5,
+       "trayectos": [
+        [
+         [
+          0,
+          0.22
+         ],
+         [
+          0,
+          0.62
+         ]
+        ]
+       ],
+       "pose": "nudillos"
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "Puntos bajo los dedos",
+      "tecnica": "Presión sostenida",
+      "duracion": 75,
+      "instruccion": "Un punto debajo de cada dedo, en el cojín de la bola del pie.",
+      "zonas": [
+       "f_bola"
+      ],
+      "movimiento": {
+       "tipo": "presion",
+       "periodo": 5,
+       "centros": [
+        [
+         -0.6,
+         0.73
+        ],
+        [
+         -0.2,
+         0.74
+        ],
+        [
+         0.2,
+         0.75
+        ],
+        [
+         0.6,
+         0.76
+        ]
+       ]
+      },
+      "presion": "firme"
+     },
+     {
+      "nombre": "Cada dedo",
+      "tecnica": "Deslizamiento con pulgar e índice",
+      "duracion": 60,
+      "instruccion": "Aprieta suave cada dedo entre tu pulgar y tu índice y deslízate hacia la punta.",
+      "zonas": [
+       "f_dedos"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 2.5,
+       "trayectos": [
+        [
+         [
+          -0.78,
+          0.87
+         ],
+         [
+          -0.8,
+          0.96
+         ]
+        ],
+        [
+         [
+          -0.42,
+          0.88
+         ],
+         [
+          -0.43,
+          0.99
+         ]
+        ],
+        [
+         [
+          -0.05,
+          0.89
+         ],
+         [
+          -0.05,
+          1.01
+         ]
+        ],
+        [
+         [
+          0.3,
+          0.9
+         ],
+         [
+          0.32,
+          1.03
+         ]
+        ],
+        [
+         [
+          0.72,
+          0.88
+         ],
+         [
+          0.78,
+          1.06
+         ]
+        ]
+       ],
+       "pose": "pinza"
+      },
+      "presion": "suave"
+     },
+     {
+      "nombre": "Tres carriles",
+      "tecnica": "Deslizamiento con el pulgar",
+      "duracion": 60,
+      "instruccion": "Repasa toda la planta con el pulgar, del talón a los dedos, en tres carriles.",
+      "zonas": [
+       "f_talon",
+       "f_arco",
+       "f_bola"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 3.5,
+       "trayectos": [
+        [
+         [
+          -0.5,
+          0.12
+         ],
+         [
+          -0.55,
+          0.8
+         ]
+        ],
+        [
+         [
+          0,
+          0.12
+         ],
+         [
+          0,
+          0.82
+         ]
+        ],
+        [
+         [
+          0.45,
+          0.12
+         ],
+         [
+          0.55,
+          0.82
+         ]
+        ]
+       ],
+       "mano": "pulgar"
+      },
+      "presion": "media"
+     },
+     {
+      "nombre": "Cierre",
+      "tecnica": "Deslizamiento con la palma",
+      "duracion": 30,
+      "instruccion": "Pasadas lentas y firmes para terminar. Deja la mano quieta sobre el pie unos segundos antes de soltar.",
+      "zonas": [
+       "f_talon",
+       "f_arco",
+       "f_bola"
+      ],
+      "movimiento": {
+       "tipo": "deslizar",
+       "periodo": 6,
+       "trayectos": [
+        [
+         [
+          0,
+          0.1
+         ],
+         [
+          0,
+          0.5
+         ],
+         [
+          0,
+          0.9
+         ]
+        ]
+       ]
+      },
+      "presion": "media"
+     }
+    ]
+   }
+  ]
+ }
+}

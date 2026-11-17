@@ -1,0 +1,1636 @@
+{
+ "nota": "u: -1 borde izquierdo, 0 columna, 1 borde derecho (con 'espejo' se repite del otro lado). v: 0 arriba de los glúteos, 0.42 costillas, 0.95 hombros, >1 cuello. 'duracion' en segundos para la versión Mediana; Corto y Largo la escalan. 'presion': suave | media | firme (cambia el color). 'mano' en movimiento: palma | pulgar. 'golpe' en percusion: canto (karate, dedos juntos) | karate_abierta | puno | ahuecada. 'pose' en movimiento: cualquier mano del editor (manos_poses.js), por ejemplo yemas, nudillos, pinza.",
+ "duraciones": [
+  {
+   "id": "corto",
+   "nombre": "Corto",
+   "factor": 0.5
+  },
+  {
+   "id": "mediano",
+   "nombre": "Mediano",
+   "factor": 1
+  },
+  {
+   "id": "largo",
+   "nombre": "Largo",
+   "factor": 1.75
+  }
+ ],
+ "tipos": [
+  {
+   "id": "relajante",
+   "nombre": "Relajante",
+   "descripcion": "Clásico (estilo sueco): movimientos largos y suaves en toda la espalda. El mejor para empezar.",
+   "pasos": [
+    {
+     "nombre": "Contacto y aceite",
+     "tecnica": "Deslizamiento suave",
+     "duracion": 60,
+     "instruccion": "Calienta el aceite en tus manos. Con las manos planas, sube por los lados de la columna, abre hacia los hombros y baja por los costados. Presión ligera.",
+     "zonas": [
+      "paravertebrales",
+      "escapulas",
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 6,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         0.05
+        ],
+        [
+         0.2,
+         0.88
+        ],
+        [
+         0.7,
+         0.97
+        ],
+        [
+         0.85,
+         0.8
+        ],
+        [
+         0.8,
+         0.4
+        ],
+        [
+         0.4,
+         0.05
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Deslizamientos largos",
+     "tecnica": "Deslizamiento con presión media",
+     "duracion": 120,
+     "instruccion": "Mismo recorrido con un poco más de presión. Ritmo lento y constante. Nunca empujes sobre la columna.",
+     "zonas": [
+      "paravertebrales",
+      "escapulas",
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 5,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         0.05
+        ],
+        [
+         0.2,
+         0.88
+        ],
+        [
+         0.7,
+         0.97
+        ],
+        [
+         0.85,
+         0.8
+        ],
+        [
+         0.8,
+         0.4
+        ],
+        [
+         0.4,
+         0.05
+        ]
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Amasado de trapecios",
+     "tecnica": "Amasado",
+     "duracion": 120,
+     "instruccion": "Toma el músculo entre el pulgar y los dedos y amásalo como masa de pan, del cuello hacia el hombro. Pregunta si la presión está bien.",
+     "zonas": [
+      "trapecios"
+     ],
+     "movimiento": {
+      "tipo": "amasar",
+      "periodo": 1.6,
+      "espejo": true,
+      "centros": [
+       [
+        0.3,
+        0.98
+       ],
+       [
+        0.5,
+        0.97
+       ],
+       [
+        0.7,
+        0.96
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Círculos con los pulgares",
+     "tecnica": "Presión circular",
+     "duracion": 150,
+     "instruccion": "Pulgares a 2 o 3 cm de la columna. Círculos pequeños, subiendo poco a poco desde abajo hasta el cuello. Repite.",
+     "zonas": [
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "tipo": "circulos",
+      "periodo": 1.4,
+      "espejo": true,
+      "radio": 0.022,
+      "centros": [
+       [
+        0.16,
+        0.12
+       ],
+       [
+        0.16,
+        0.28
+       ],
+       [
+        0.16,
+        0.44
+       ],
+       [
+        0.16,
+        0.6
+       ],
+       [
+        0.16,
+        0.75
+       ],
+       [
+        0.16,
+        0.9
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Borde de los omóplatos",
+     "tecnica": "Deslizamiento con yemas",
+     "duracion": 120,
+     "instruccion": "Con las yemas, recorre el borde interno del omóplato de abajo hacia arriba y sal hacia el hombro.",
+     "zonas": [
+      "escapulas"
+     ],
+     "movimiento": {
+      "pose": "yemas",
+      "tipo": "deslizar",
+      "periodo": 3,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.32,
+         0.56
+        ],
+        [
+         0.3,
+         0.72
+        ],
+        [
+         0.36,
+         0.86
+        ],
+        [
+         0.6,
+         0.92
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Fricción lumbar",
+     "tecnica": "Fricción",
+     "duracion": 90,
+     "instruccion": "Palmas o antebrazo, movimientos cortos de lado a lado para dar calor. Evita presionar en la zona de los riñones.",
+     "zonas": [
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "friccion",
+      "periodo": 1.0,
+      "espejo": true,
+      "segmentos": [
+       [
+        [
+         0.14,
+         0.1
+        ],
+        [
+         0.6,
+         0.1
+        ]
+       ],
+       [
+        [
+         0.14,
+         0.2
+        ],
+        [
+         0.6,
+         0.2
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Abanico",
+     "tecnica": "Deslizamiento hacia afuera",
+     "duracion": 90,
+     "instruccion": "Desde la columna hacia los costados, en abanico. Empieza abajo y sube hasta los hombros.",
+     "zonas": [
+      "paravertebrales",
+      "escapulas",
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 2.5,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.12,
+         0.15
+        ],
+        [
+         0.75,
+         0.22
+        ]
+       ],
+       [
+        [
+         0.12,
+         0.45
+        ],
+        [
+         0.8,
+         0.55
+        ]
+       ],
+       [
+        [
+         0.12,
+         0.72
+        ],
+        [
+         0.85,
+         0.82
+        ]
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Cierre",
+     "tecnica": "Pasadas lentas y ligeras",
+     "duracion": 60,
+     "instruccion": "Pasadas muy lentas y ligeras de arriba hacia abajo. Al final deja las manos quietas unos segundos sobre la espalda.",
+     "zonas": [
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 8,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         0.97
+        ],
+        [
+         0.2,
+         0.03
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    }
+   ]
+  },
+  {
+   "id": "cuello",
+   "nombre": "Cuello y hombros",
+   "descripcion": "Para quien pasa horas en la compu o anda tenso de hombros. Se concentra en la parte alta.",
+   "pasos": [
+    {
+     "nombre": "Calentar la parte alta",
+     "tecnica": "Deslizamiento suave",
+     "duracion": 75,
+     "instruccion": "Manos planas desde la mitad de la espalda hacia arriba, abre sobre los hombros y regresa por los lados.",
+     "zonas": [
+      "paravertebrales",
+      "escapulas",
+      "trapecios"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 5,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         0.5
+        ],
+        [
+         0.2,
+         0.92
+        ],
+        [
+         0.8,
+         0.97
+        ],
+        [
+         0.75,
+         0.6
+        ],
+        [
+         0.3,
+         0.5
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Amasado de trapecios",
+     "tecnica": "Amasado",
+     "duracion": 150,
+     "instruccion": "Pellizca suave el músculo entre el cuello y el hombro y amasa. Ve del cuello hacia afuera y regresa.",
+     "zonas": [
+      "trapecios"
+     ],
+     "movimiento": {
+      "tipo": "amasar",
+      "periodo": 1.5,
+      "espejo": true,
+      "centros": [
+       [
+        0.25,
+        0.99
+       ],
+       [
+        0.45,
+        0.98
+       ],
+       [
+        0.65,
+        0.96
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Base del cuello",
+     "tecnica": "Círculos con pulgares",
+     "duracion": 120,
+     "instruccion": "Pulgares a los lados de la columna, justo donde empieza el cuello. Círculos pequeños y lentos. Sin presionar el hueso.",
+     "zonas": [
+      "trapecios",
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "tipo": "circulos",
+      "periodo": 1.5,
+      "espejo": true,
+      "radio": 0.018,
+      "centros": [
+       [
+        0.15,
+        0.86
+       ],
+       [
+        0.15,
+        0.95
+       ],
+       [
+        0.17,
+        1.04
+       ],
+       [
+        0.19,
+        1.12
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Puntos de tensión",
+     "tecnica": "Presión sostenida",
+     "duracion": 120,
+     "instruccion": "Con el pulgar, presiona cada punto unos segundos, aumenta poco a poco y suelta lento. Pregunta del 1 al 10: no pases de 6.",
+     "zonas": [
+      "trapecios",
+      "escapulas"
+     ],
+     "movimiento": {
+      "tipo": "presion",
+      "periodo": 5,
+      "espejo": true,
+      "centros": [
+       [
+        0.45,
+        0.97
+       ],
+       [
+        0.3,
+        0.8
+       ],
+       [
+        0.32,
+        0.65
+       ]
+      ]
+     },
+     "presion": "firme"
+    },
+    {
+     "nombre": "Entre los omóplatos",
+     "tecnica": "Fricción",
+     "duracion": 90,
+     "instruccion": "Con las yemas, movimientos cortos de arriba a abajo entre la columna y el omóplato.",
+     "zonas": [
+      "paravertebrales",
+      "escapulas"
+     ],
+     "movimiento": {
+      "pose": "yemas",
+      "tipo": "friccion",
+      "periodo": 0.9,
+      "espejo": true,
+      "segmentos": [
+       [
+        [
+         0.25,
+         0.6
+        ],
+        [
+         0.25,
+         0.85
+        ]
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Barrido de hombros",
+     "tecnica": "Deslizamiento hacia afuera",
+     "duracion": 75,
+     "instruccion": "Desde la base del cuello hacia la punta de los hombros, como si quitaras algo. Lento.",
+     "zonas": [
+      "trapecios"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 2.5,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.12,
+         1.05
+        ],
+        [
+         0.9,
+         0.96
+        ]
+       ],
+       [
+        [
+         0.12,
+         0.85
+        ],
+        [
+         0.85,
+         0.9
+        ]
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Cierre",
+     "tecnica": "Pasadas ligeras",
+     "duracion": 60,
+     "instruccion": "Pasadas muy suaves del cuello hacia la mitad de la espalda. Termina con las manos quietas sobre los hombros.",
+     "zonas": [
+      "trapecios",
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 7,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         1.05
+        ],
+        [
+         0.2,
+         0.5
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    }
+   ]
+  },
+  {
+   "id": "lumbar",
+   "nombre": "Espalda baja",
+   "descripcion": "Para cansancio en la cintura o la espalda baja. Calor y presión suave en la zona lumbar.",
+   "pasos": [
+    {
+     "nombre": "Calentar la zona",
+     "tecnica": "Deslizamiento suave",
+     "duracion": 75,
+     "instruccion": "Manos planas en la espalda baja: sube por los lados de la columna hasta las costillas y baja por los costados.",
+     "zonas": [
+      "lumbar",
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 5,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         0.03
+        ],
+        [
+         0.2,
+         0.45
+        ],
+        [
+         0.75,
+         0.42
+        ],
+        [
+         0.85,
+         0.1
+        ],
+        [
+         0.4,
+         0.03
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Fricción para dar calor",
+     "tecnica": "Fricción",
+     "duracion": 90,
+     "instruccion": "Palmas planas, de lado a lado, rápido pero sin apretar, hasta sentir la piel tibia.",
+     "zonas": [
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "friccion",
+      "periodo": 0.8,
+      "espejo": true,
+      "segmentos": [
+       [
+        [
+         0.14,
+         0.1
+        ],
+        [
+         0.6,
+         0.1
+        ]
+       ],
+       [
+        [
+         0.14,
+         0.22
+        ],
+        [
+         0.6,
+         0.22
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Pulgares en la lumbar",
+     "tecnica": "Círculos con pulgares",
+     "duracion": 150,
+     "instruccion": "Pulgares a los lados de la columna (nunca encima). Círculos lentos de abajo hacia las costillas.",
+     "zonas": [
+      "paravertebrales",
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "circulos",
+      "periodo": 1.5,
+      "espejo": true,
+      "radio": 0.022,
+      "centros": [
+       [
+        0.17,
+        0.05
+       ],
+       [
+        0.17,
+        0.15
+       ],
+       [
+        0.17,
+        0.25
+       ],
+       [
+        0.17,
+        0.35
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Amasado de la cintura",
+     "tecnica": "Amasado",
+     "duracion": 120,
+     "instruccion": "Toma con las dos manos el costado de la cintura y amasa. Primero un lado y luego el otro.",
+     "zonas": [
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "amasar",
+      "periodo": 1.7,
+      "espejo": true,
+      "centros": [
+       [
+        0.82,
+        0.12
+       ],
+       [
+        0.85,
+        0.28
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Rodar la piel",
+     "tecnica": "Pinza con pulgar e índice",
+     "duracion": 90,
+     "instruccion": "Toma un pliegue de piel entre el pulgar y el índice y ve avanzándolo como si rodaras la piel, de abajo hacia arriba a los lados de la columna. Suave: si duele, toma menos piel.",
+     "zonas": [
+      "lumbar",
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "tipo": "amasar",
+      "pose": "pinza",
+      "periodo": 1.2,
+      "espejo": true,
+      "centros": [
+       [
+        0.25,
+        0.08
+       ],
+       [
+        0.25,
+        0.2
+       ],
+       [
+        0.25,
+        0.32
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Presión con las palmas",
+     "tecnica": "Presión sostenida",
+     "duracion": 90,
+     "instruccion": "Palmas a los lados de la columna. Inclina tu peso poco a poco, sostén 3 segundos y suelta. Nada de presión en los riñones.",
+     "zonas": [
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "presion",
+      "periodo": 5,
+      "espejo": true,
+      "centros": [
+       [
+        0.3,
+        0.08
+       ],
+       [
+        0.3,
+        0.2
+       ]
+      ],
+      "mano": "palma"
+     },
+     "presion": "firme"
+    },
+    {
+     "nombre": "Abanico bajo",
+     "tecnica": "Deslizamiento hacia afuera",
+     "duracion": 75,
+     "instruccion": "Desde la columna hacia la cadera, en abanico, de abajo hacia la cintura.",
+     "zonas": [
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 2.5,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.12,
+         0.05
+        ],
+        [
+         0.8,
+         0.0
+        ]
+       ],
+       [
+        [
+         0.12,
+         0.18
+        ],
+        [
+         0.85,
+         0.15
+        ]
+       ],
+       [
+        [
+         0.12,
+         0.3
+        ],
+        [
+         0.85,
+         0.3
+        ]
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Cierre",
+     "tecnica": "Manos quietas",
+     "duracion": 60,
+     "instruccion": "Pasadas muy lentas y deja las palmas quietas y tibias sobre la espalda baja unos segundos.",
+     "zonas": [
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 8,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         0.45
+        ],
+        [
+         0.2,
+         0.03
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    }
+   ]
+  },
+  {
+   "id": "descontracturante",
+   "nombre": "Descontracturante suave",
+   "descripcion": "Para nudos y tensión. Más presión y trabajo en puntos, pero siempre preguntando. Si duele, afloja.",
+   "pasos": [
+    {
+     "nombre": "Calentar toda la espalda",
+     "tecnica": "Deslizamiento",
+     "duracion": 90,
+     "instruccion": "Deslizamientos largos con presión media. El músculo tiene que estar caliente antes de trabajar los nudos.",
+     "zonas": [
+      "paravertebrales",
+      "escapulas",
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 5,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         0.05
+        ],
+        [
+         0.2,
+         0.88
+        ],
+        [
+         0.7,
+         0.97
+        ],
+        [
+         0.85,
+         0.8
+        ],
+        [
+         0.8,
+         0.4
+        ],
+        [
+         0.4,
+         0.05
+        ]
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Amasado profundo",
+     "tecnica": "Amasado",
+     "duracion": 150,
+     "instruccion": "Amasa trapecios y la zona de los omóplatos, un poco más firme que en el relajante. Pregunta: del 1 al 10, que esté entre 5 y 7.",
+     "zonas": [
+      "trapecios",
+      "escapulas"
+     ],
+     "movimiento": {
+      "tipo": "amasar",
+      "periodo": 1.8,
+      "espejo": true,
+      "centros": [
+       [
+        0.35,
+        0.97
+       ],
+       [
+        0.6,
+        0.96
+       ],
+       [
+        0.45,
+        0.75
+       ],
+       [
+        0.6,
+        0.65
+       ]
+      ]
+     },
+     "presion": "firme"
+    },
+    {
+     "nombre": "Buscar nudos",
+     "tecnica": "Fricción transversa",
+     "duracion": 120,
+     "instruccion": "Con las yemas, frota de lado a lado a lo largo de los músculos junto a la columna. Donde sientas una bolita dura, ese es un nudo.",
+     "zonas": [
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "pose": "yemas",
+      "tipo": "friccion",
+      "periodo": 0.7,
+      "espejo": true,
+      "segmentos": [
+       [
+        [
+         0.1,
+         0.3
+        ],
+        [
+         0.28,
+         0.3
+        ]
+       ],
+       [
+        [
+         0.1,
+         0.55
+        ],
+        [
+         0.28,
+         0.55
+        ]
+       ],
+       [
+        [
+         0.1,
+         0.8
+        ],
+        [
+         0.28,
+         0.8
+        ]
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Presión en los nudos",
+     "tecnica": "Presión sostenida",
+     "duracion": 180,
+     "instruccion": "Pulgar sobre el nudo: presiona poco a poco, sostén 10 a 20 segundos hasta sentir que se suelta, y suelta despacio. Nunca sobre la columna.",
+     "zonas": [
+      "paravertebrales",
+      "trapecios",
+      "escapulas"
+     ],
+     "movimiento": {
+      "tipo": "presion",
+      "periodo": 8,
+      "espejo": true,
+      "centros": [
+       [
+        0.45,
+        0.97
+       ],
+       [
+        0.3,
+        0.78
+       ],
+       [
+        0.18,
+        0.6
+       ],
+       [
+        0.18,
+        0.3
+       ]
+      ]
+     },
+     "presion": "firme"
+    },
+    {
+     "nombre": "Estirar el músculo",
+     "tecnica": "Deslizamiento lento y firme",
+     "duracion": 120,
+     "instruccion": "Con el talón de la mano, desliza muy lento a lo largo de la columna, de abajo hacia arriba. Como planchando el músculo.",
+     "zonas": [
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 7,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.17,
+         0.05
+        ],
+        [
+         0.17,
+         0.92
+        ]
+       ]
+      ]
+     },
+     "presion": "firme"
+    },
+    {
+     "nombre": "Nudillos junto a la columna",
+     "tecnica": "Deslizamiento con nudillos",
+     "duracion": 90,
+     "instruccion": "Cierra la mano en puño suelto y desliza con la parte plana de los dedos (no con la punta de los nudillos) por los músculos junto a la columna, de abajo hacia arriba. Nunca encima de la columna.",
+     "zonas": [
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "pose": "nudillos",
+      "periodo": 6,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         0.08
+        ],
+        [
+         0.2,
+         0.85
+        ]
+       ]
+      ]
+     },
+     "presion": "firme"
+    },
+    {
+     "nombre": "Relajar después",
+     "tecnica": "Deslizamiento suave",
+     "duracion": 90,
+     "instruccion": "Ahora suave otra vez: abanico desde la columna hacia los lados para calmar la zona trabajada.",
+     "zonas": [
+      "paravertebrales",
+      "escapulas",
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 3,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.12,
+         0.15
+        ],
+        [
+         0.75,
+         0.22
+        ]
+       ],
+       [
+        [
+         0.12,
+         0.45
+        ],
+        [
+         0.8,
+         0.55
+        ]
+       ],
+       [
+        [
+         0.12,
+         0.72
+        ],
+        [
+         0.85,
+         0.82
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Cierre",
+     "tecnica": "Pasadas ligeras",
+     "duracion": 60,
+     "instruccion": "Pasadas lentas de arriba abajo y manos quietas al final. Recomienda tomar agua.",
+     "zonas": [
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 8,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         0.97
+        ],
+        [
+         0.2,
+         0.03
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    }
+   ]
+  },
+  {
+   "id": "activador",
+   "nombre": "Activador",
+   "descripcion": "Para despertar o antes de hacer ejercicio. Ritmo rápido, golpecitos suaves y fricción.",
+   "pasos": [
+    {
+     "nombre": "Deslizamientos rápidos",
+     "tecnica": "Deslizamiento",
+     "duracion": 60,
+     "instruccion": "Manos planas, recorridos largos y más rápidos que en el relajante. Presión media.",
+     "zonas": [
+      "paravertebrales",
+      "escapulas",
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 2.5,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         0.05
+        ],
+        [
+         0.2,
+         0.88
+        ],
+        [
+         0.7,
+         0.97
+        ],
+        [
+         0.85,
+         0.8
+        ],
+        [
+         0.8,
+         0.4
+        ],
+        [
+         0.4,
+         0.05
+        ]
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Fricción vigorosa",
+     "tecnica": "Fricción",
+     "duracion": 75,
+     "instruccion": "Palmas de lado a lado, rápido, por toda la espalda (menos encima de la columna). Que se sienta el calor.",
+     "zonas": [
+      "escapulas",
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "friccion",
+      "periodo": 0.6,
+      "espejo": true,
+      "segmentos": [
+       [
+        [
+         0.2,
+         0.15
+        ],
+        [
+         0.7,
+         0.15
+        ]
+       ],
+       [
+        [
+         0.25,
+         0.6
+        ],
+        [
+         0.75,
+         0.6
+        ]
+       ],
+       [
+        [
+         0.25,
+         0.85
+        ],
+        [
+         0.8,
+         0.85
+        ]
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Golpecitos",
+     "tecnica": "Percusión",
+     "duracion": 90,
+     "instruccion": "Con el canto de las manos relajadas (como golpe de karate), golpecitos rápidos y ligeros, alternando las manos. Solo en músculo: nunca en columna ni riñones.",
+     "zonas": [
+      "trapecios",
+      "escapulas"
+     ],
+     "movimiento": {
+      "tipo": "percusion",
+      "periodo": 0.3,
+      "espejo": true,
+      "centros": [
+       [
+        0.5,
+        0.96
+       ],
+       [
+        0.45,
+        0.75
+       ],
+       [
+        0.6,
+        0.65
+       ]
+      ],
+      "golpe": "canto"
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Golpecitos con la mano abierta",
+     "tecnica": "Percusión",
+     "duracion": 45,
+     "instruccion": "Mano abierta y relajada, con los dedos sueltos y separados. Golpea con el canto dejando que los dedos choquen entre sí: es más ligero que con los dedos juntos. Solo en músculo: nunca en columna ni riñones.",
+     "zonas": [
+      "trapecios",
+      "escapulas"
+     ],
+     "movimiento": {
+      "tipo": "percusion",
+      "golpe": "karate_abierta",
+      "periodo": 0.3,
+      "espejo": true,
+      "centros": [
+       [
+        0.5,
+        0.9
+       ],
+       [
+        0.45,
+        0.72
+       ],
+       [
+        0.6,
+        0.62
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Golpes con el puño",
+     "tecnica": "Percusión",
+     "duracion": 60,
+     "instruccion": "Cierra las manos en puño suelto y golpea suave con el lado del meñique, alternando las manos. Solo en la parte alta de la espalda y hombros; nunca en columna ni riñones.",
+     "zonas": [
+      "trapecios",
+      "escapulas"
+     ],
+     "movimiento": {
+      "tipo": "percusion",
+      "golpe": "puno",
+      "periodo": 0.4,
+      "espejo": true,
+      "centros": [
+       [
+        0.5,
+        0.92
+       ],
+       [
+        0.5,
+        0.75
+       ],
+       [
+        0.55,
+        0.65
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Palmoteo",
+     "tecnica": "Percusión con la mano ahuecada",
+     "duracion": 60,
+     "instruccion": "Ahueca las manos como un cuenco (dedos juntos y la palma hundida) y golpea suave alternando las manos. Tiene que sonar hueco, no a palmada. Solo en la parte alta de la espalda; nunca en columna ni riñones.",
+     "zonas": [
+      "trapecios",
+      "escapulas"
+     ],
+     "movimiento": {
+      "tipo": "percusion",
+      "golpe": "ahuecada",
+      "periodo": 0.35,
+      "espejo": true,
+      "centros": [
+       [
+        0.45,
+        0.9
+       ],
+       [
+        0.5,
+        0.72
+       ],
+       [
+        0.55,
+        0.62
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Amasado rápido",
+     "tecnica": "Amasado",
+     "duracion": 75,
+     "instruccion": "Amasa los trapecios con ritmo rápido, como si exprimieras una esponja.",
+     "zonas": [
+      "trapecios"
+     ],
+     "movimiento": {
+      "tipo": "amasar",
+      "periodo": 0.9,
+      "espejo": true,
+      "centros": [
+       [
+        0.35,
+        0.97
+       ],
+       [
+        0.6,
+        0.96
+       ]
+      ]
+     },
+     "presion": "media"
+    },
+    {
+     "nombre": "Cierre activo",
+     "tecnica": "Deslizamiento firme",
+     "duracion": 45,
+     "instruccion": "Tres o cuatro pasadas firmes de abajo hacia arriba y termina con unas palmaditas en los hombros.",
+     "zonas": [
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 2,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         0.03
+        ],
+        [
+         0.2,
+         0.95
+        ]
+       ]
+      ]
+     },
+     "presion": "media"
+    }
+   ]
+  },
+  {
+   "id": "dormir",
+   "nombre": "Para dormir",
+   "descripcion": "Muy lento y ligero, con balanceo. Ideal en la noche; está bien si la persona se queda dormida.",
+   "pasos": [
+    {
+     "nombre": "Manos quietas",
+     "tecnica": "Contacto",
+     "duracion": 45,
+     "instruccion": "Pon las manos quietas sobre la espalda, una arriba y otra abajo. Respiren lento juntos.",
+     "zonas": [
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "tipo": "presion",
+      "periodo": 6,
+      "espejo": true,
+      "centros": [
+       [
+        0.3,
+        0.75
+       ],
+       [
+        0.3,
+        0.2
+       ]
+      ],
+      "mano": "palma"
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Pasadas muy lentas",
+     "tecnica": "Deslizamiento ligero",
+     "duracion": 150,
+     "instruccion": "Deslizamientos larguísimos y casi sin presión. Cuenta hasta 6 en cada pasada.",
+     "zonas": [
+      "paravertebrales",
+      "escapulas",
+      "lumbar"
+     ],
+     "movimiento": {
+      "tipo": "deslizar",
+      "periodo": 9,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.2,
+         0.05
+        ],
+        [
+         0.2,
+         0.88
+        ],
+        [
+         0.7,
+         0.97
+        ],
+        [
+         0.85,
+         0.8
+        ],
+        [
+         0.8,
+         0.4
+        ],
+        [
+         0.4,
+         0.05
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Balanceo",
+     "tecnica": "Mecer",
+     "duracion": 90,
+     "instruccion": "Palmas en el costado lejano: empuja suave y deja que regrese, como mecer una cuna. Ritmo lento y constante.",
+     "zonas": [
+      "lumbar",
+      "escapulas"
+     ],
+     "movimiento": {
+      "tipo": "friccion",
+      "periodo": 2.4,
+      "espejo": false,
+      "segmentos": [
+       [
+        [
+         0.35,
+         0.25
+        ],
+        [
+         0.85,
+         0.25
+        ]
+       ],
+       [
+        [
+         0.35,
+         0.65
+        ],
+        [
+         0.85,
+         0.65
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Círculos lentos",
+     "tecnica": "Círculos con toda la mano",
+     "duracion": 120,
+     "instruccion": "Mano plana, círculos grandes y lentos sobre los omóplatos y la espalda baja.",
+     "zonas": [
+      "escapulas",
+      "lumbar"
+     ],
+     "movimiento": {
+      "mano": "palma",
+      "tipo": "circulos",
+      "periodo": 4,
+      "espejo": true,
+      "radio": 0.05,
+      "centros": [
+       [
+        0.5,
+        0.72
+       ],
+       [
+        0.4,
+        0.18
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Peinado",
+     "tecnica": "Roce con las yemas",
+     "duracion": 90,
+     "instruccion": "Solo con las yemas, como peinando, de arriba hacia abajo. Muy ligero, casi sin tocar.",
+     "zonas": [
+      "paravertebrales",
+      "escapulas",
+      "lumbar"
+     ],
+     "movimiento": {
+      "pose": "yemas",
+      "tipo": "deslizar",
+      "periodo": 4,
+      "espejo": true,
+      "trayectos": [
+       [
+        [
+         0.25,
+         0.97
+        ],
+        [
+         0.25,
+         0.03
+        ]
+       ],
+       [
+        [
+         0.6,
+         0.92
+        ],
+        [
+         0.6,
+         0.05
+        ]
+       ]
+      ]
+     },
+     "presion": "suave"
+    },
+    {
+     "nombre": "Despedida",
+     "tecnica": "Manos quietas",
+     "duracion": 45,
+     "instruccion": "Manos quietas otra vez y retíralas muy despacio. No hables; deja que siga descansando.",
+     "zonas": [
+      "paravertebrales"
+     ],
+     "movimiento": {
+      "tipo": "presion",
+      "periodo": 7,
+      "espejo": true,
+      "centros": [
+       [
+        0.3,
+        0.75
+       ],
+       [
+        0.3,
+        0.2
+       ]
+      ],
+      "mano": "palma"
+     },
+     "presion": "suave"
+    }
+   ]
+  }
+ ]
+}
