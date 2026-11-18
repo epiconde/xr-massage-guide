@@ -736,7 +736,8 @@
          0,
          0.88
         ]
-       ]
+       ],
+       "giro": 90
       },
       "presion": "suave"
      },
@@ -997,7 +998,8 @@
          0,
          0.88
         ]
-       ]
+       ],
+       "giro": 90
       },
       "presion": "suave"
      },
@@ -1125,7 +1127,7 @@
       "nombre": "Mecer la pierna",
       "tecnica": "Balanceo",
       "duracion": 45,
-      "instruccion": "Con la rodilla doblada, sostén el tobillo y mece la pierna de un lado a otro, suelta, como un péndulo.",
+      "instruccion": "Con la rodilla doblada, rodea el tobillo con la mano abierta y gira la pierna despacio en círculos, de un costado al otro. La otra mano descansa sobre el muslo.",
       "zonas": [
        "p_pantorrilla"
       ],
@@ -1144,7 +1146,7 @@
         0.6
        ],
        "maniqui": "mecer",
-       "periodoManiqui": 2.2
+       "periodoManiqui": 3.5
       },
       "presion": "suave"
      },

@@ -1,0 +1,240 @@
+{
+ "modelo": "Abierta",
+ "pose": "abierta",
+ "archivo": "mano_Abierta_puno.glb",
+ "nota": "palma abierta: dedos como en el modelo y el pulgar como lo corregiste en Karate (uña hacia arriba)",
+ "fecha": "2026-11-17T23:52:33.423Z",
+ "huesos": {
+  "antebrazo": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.055275,
+    -0.998344,
+    0.015937,
+    0.000882
+   ]
+  },
+  "palma": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.014978,
+    -0.000096,
+    -0.005688,
+    0.999872
+   ]
+  },
+  "anular_meta": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.003987,
+    0.000386,
+    -0.184599,
+    0.982806
+   ]
+  },
+  "anular_1": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.025602,
+    0.004642,
+    0.230166,
+    0.972803
+   ]
+  },
+  "anular_2": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.09233,
+    -0.020754,
+    -0.147291,
+    0.984556
+   ]
+  },
+  "anular_3": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.129436,
+    -0.006323,
+    -0.060905,
+    0.989695
+   ]
+  },
+  "indice_meta": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.002462,
+    -0.000053,
+    0.103636,
+    0.994612
+   ]
+  },
+  "indice_1": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.044545,
+    -0.004394,
+    -0.104987,
+    0.993466
+   ]
+  },
+  "indice_2": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.08061,
+    -0.006569,
+    -0.038875,
+    0.995966
+   ]
+  },
+  "indice_3": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.079524,
+    0.009123,
+    0.053653,
+    0.995346
+   ]
+  },
+  "medio_meta": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "medio_1": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.036177,
+    0.006737,
+    -0.192887,
+    0.980531
+   ]
+  },
+  "medio_2": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.168093,
+    0.030535,
+    0.290116,
+    0.941618
+   ]
+  },
+  "medio_3": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.071506,
+    -0.043072,
+    -0.203735,
+    0.975461
+   ]
+  },
+  "menique_meta": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.001484,
+    -0.000119,
+    -0.283776,
+    0.958889
+   ]
+  },
+  "menique_1": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.01649,
+    0.002807,
+    0.179566,
+    0.983604
+   ]
+  },
+  "menique_2": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.19675,
+    -0.020065,
+    -0.085231,
+    0.976536
+   ]
+  },
+  "menique_3": {
+   "doblar": 0,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    -0.153472,
+    0.021855,
+    0.077329,
+    0.98488
+   ]
+  },
+  "pulgar_meta": {
+   "doblar": 3,
+   "abrir": 0,
+   "girar": 0,
+   "cuaternion": [
+    0.018276,
+    0.007737,
+    0.329595,
+    0.943914
+   ]
+  },
+  "pulgar_1": {
+   "doblar": -4,
+   "abrir": 0,
+   "girar": -54,
+   "cuaternion": [
+    0.194062,
+    -0.433865,
+    0.016396,
+    0.879678
+   ]
+  },
+  "pulgar_2": {
+   "doblar": 0,
+   "abrir": 35,
+   "girar": 0,
+   "cuaternion": [
+    -0.072822,
+    -0.026551,
+    -0.372294,
+    0.924873
+   ]
+  }
+ }
+}
