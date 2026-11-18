@@ -8,6 +8,8 @@
   html, body { margin: 0; height: 100%; background: #10141c; color: #e8edf5; font-family: system-ui, sans-serif; overflow: hidden; }
   #ui { position: fixed; top: 12px; left: 12px; right: 12px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; z-index: 2; }
   #ui h1 { font-size: 18px; margin: 0 12px 0 0; }
+  #titulo { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+  button.chico { font-size: 13px; padding: 6px 10px; }
   button { font: inherit; font-size: 15px; padding: 10px 16px; border-radius: 10px; border: 0; background: #2f6fed; color: #fff; cursor: pointer; }
   button.sec { background: #2a3242; }
   button:disabled { opacity: .45; cursor: default; }
@@ -21,13 +23,15 @@
   #btnAR.grande { font-size: 22px; padding: 18px 30px; }
 </style>
 
-  <script type="module" crossorigin src="./assets/index-9PpmNn_z.js"></script>
+  <script type="module" crossorigin src="./assets/index-xS3f8Kl_.js"></script>
 </head>
 <body>
 <div id="ui">
-  <h1>Guía de masaje XR</h1>
+  <div id="titulo"><h1>Guía de masaje XR</h1><button id="btnVoz" class="sec chico">🔊 Sonido</button></div>
   <button id="btnAR" disabled>Entrar en 3D</button>
   <button id="btnDemo" class="sec">Reiniciar dibujo</button>
+  <button id="btnRevisar" class="sec">🎬 Revisar animaciones</button>
+  <button id="btnRevisarMal" class="sec" hidden>🔁 Revisar las que estaban mal</button>
   <div id="estado">Cargando…</div>
 </div>
 <div id="aviso" hidden>

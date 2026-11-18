@@ -230,7 +230,7 @@
      ],
      "movimiento": {
       "tipo": "friccion",
-      "periodo": 1.0,
+      "periodo": 1,
       "espejo": true,
       "segmentos": [
        [
@@ -790,7 +790,7 @@
         ],
         [
          0.8,
-         0.0
+         0
         ]
        ],
        [
@@ -1279,14 +1279,14 @@
      "nombre": "Golpecitos con la mano abierta",
      "tecnica": "Percusión",
      "duracion": 45,
-     "instruccion": "Mano abierta y relajada, con los dedos sueltos y separados. Golpea con el canto dejando que los dedos choquen entre sí: es más ligero que con los dedos juntos. Solo en músculo: nunca en columna ni riñones.",
+     "instruccion": "Mano abierta y relajada, con los dedos sueltos. Golpea ligero y rápido con toda la palma, alternando las manos. Solo en músculo: nunca en columna ni riñones.",
      "zonas": [
       "trapecios",
       "escapulas"
      ],
      "movimiento": {
       "tipo": "percusion",
-      "golpe": "karate_abierta",
+      "golpe": "abierta",
       "periodo": 0.3,
       "espejo": true,
       "centros": [
@@ -1348,7 +1348,7 @@
      ],
      "movimiento": {
       "tipo": "percusion",
-      "golpe": "ahuecada",
+      "golpe": "ventosa",
       "periodo": 0.35,
       "espejo": true,
       "centros": [
@@ -1514,25 +1514,27 @@
       "segmentos": [
        [
         [
-         0.35,
-         0.25
+         0.5,
+         0.3
         ],
         [
-         0.85,
-         0.25
+         0.62,
+         0.3
         ]
        ],
        [
         [
-         0.35,
-         0.65
+         0.5,
+         0.62
         ],
         [
-         0.85,
-         0.65
+         0.62,
+         0.62
         ]
        ]
-      ]
+      ],
+      "mecer": 14,
+      "giro": -90
      },
      "presion": "suave"
     },

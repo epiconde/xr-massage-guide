@@ -2488,7 +2488,8 @@
          ]
         ]
        ],
-       "espejo": true
+       "espejo": true,
+       "pose": "amasar"
       },
       "presion": "suave"
      },
@@ -2605,10 +2606,29 @@
         ],
         [
          0,
-         0.92
+         0.93
         ]
        ],
-       "giro": 90
+       "giro": 90,
+       "espejo": false,
+       "marcas": [
+        [
+         0.45,
+         0.84
+        ],
+        [
+         -0.45,
+         0.84
+        ],
+        [
+         0.45,
+         0.93
+        ],
+        [
+         -0.45,
+         0.93
+        ]
+       ]
       },
       "presion": "suave"
      },
@@ -2742,7 +2762,7 @@
       ],
       "movimiento": {
        "tipo": "friccion",
-       "periodo": 1,
+       "periodo": 0.45,
        "segmentos": [
         [
          [
@@ -2812,10 +2832,29 @@
         ],
         [
          0,
-         0.92
+         0.93
         ]
        ],
-       "giro": 90
+       "giro": 90,
+       "espejo": false,
+       "marcas": [
+        [
+         0.45,
+         0.84
+        ],
+        [
+         -0.45,
+         0.84
+        ],
+        [
+         0.45,
+         0.93
+        ],
+        [
+         -0.45,
+         0.93
+        ]
+       ]
       },
       "presion": "suave"
      },
