@@ -1,0 +1,62 @@
+[
+  {
+    "archivo": "01_bienvenida.mp3",
+    "es": "Lluvia de bienvenida",
+    "en": "Soft Rain Welcome",
+    "segundos": 164
+  },
+  {
+    "archivo": "02_espalda_relajante.mp3",
+    "es": "Respiro del mar",
+    "en": "Ocean Breath",
+    "segundos": 232
+  },
+  {
+    "archivo": "03_cuello_hombros.mp3",
+    "es": "Jardín de bambú",
+    "en": "Bamboo Garden",
+    "segundos": 240
+  },
+  {
+    "archivo": "04_descontracturante.mp3",
+    "es": "Piedras que cantan",
+    "en": "Singing Stones",
+    "segundos": 240
+  },
+  {
+    "archivo": "05_piernas.mp3",
+    "es": "Tarde dorada",
+    "en": "Golden Afternoon",
+    "segundos": 173
+  },
+  {
+    "archivo": "06_pies_reflexologia.mp3",
+    "es": "Aguas del templo",
+    "en": "Temple Waters",
+    "segundos": 112
+  },
+  {
+    "archivo": "07_manos_brazos.mp3",
+    "es": "Estrellitas",
+    "en": "Little Stars",
+    "segundos": 121
+  },
+  {
+    "archivo": "08_sentado_oficina.mp3",
+    "es": "Café sin prisa",
+    "en": "Slow Coffee",
+    "segundos": 64
+  },
+  {
+    "archivo": "09_activador.mp3",
+    "es": "Luz de mañana",
+    "en": "Morning Light",
+    "segundos": 124
+  },
+  {
+    "archivo": "10_para_dormir.mp3",
+    "es": "Bajo la luna",
+    "en": "Moonlit Drift",
+    "segundos": 240
+  }
+]
